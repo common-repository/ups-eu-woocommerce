@@ -1,0 +1,16 @@
+Integrations with: 
+    -PHP(version 5.6++)
+    -mysql[version: 5.7] OR MariaDB[versio: 10.1.35]
+    CMS: Wordpress.org
+    Dependencies: Plugin [woocommerce]
+PLugin [Ups shipping]
+Version: 1.0.0
+Desciptions:
+    UPS Shipping and UPS Access Point™ : Official Plugin Module allows you to easily integrate UPS services 
+    into your store with a range of guaranteed delivery services (including deliveries to 
+    UPS Access Points™) to meet your customers need for speed and budget. 
+    Control which rate your buyers see for each delivery service. 
+    Give a choice in delivery times and convenient pick up options such as shipping directly
+     to a nearby UPS Access Point™ for convenient collection. 
+    Save your own time by processing shipments directly on your platform or export open 
+    order to manage your shipments with other applications.

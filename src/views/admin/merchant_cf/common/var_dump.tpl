@@ -1,0 +1,1 @@
+{$data_print_dump|@print_r:true}

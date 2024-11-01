@@ -1,0 +1,2264 @@
+# Copyright (C) 2019 UPS Shipping and UPS Access Point™ : Official Plugin
+# This file is distributed under the same license as the UPS Shipping and UPS Access Point™ : Official Plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: UPS Shipping and UPS Access Point™ : Official Plugin 1.0.2.8\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/ups-eu-woocommerce\n"
+"POT-Creation-Date: 2019-03-29 04:18:55+00:00\n"
+"PO-Revision-Date: 2023-03-16 11:08+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: src/config/ups-eu-woo-router-config.php:30
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:45
+msgid "About"
+msgstr "Informatie"
+
+#: src/config/ups-eu-woo-router-config.php:50
+msgid "Configuration"
+msgstr "Configuratie"
+
+#: src/config/ups-eu-woo-router-config.php:66
+#: src/libsystems/lang/ups-eu-woo-lang-accessorial-services.php:36
+#: src/libsystems/lang/ups-eu-woo-lang-country.php:36
+msgid "Country Setting"
+msgstr "Landinstelling"
+
+#: src/config/ups-eu-woo-router-config.php:86
+#: src/libsystems/lang/ups-eu-woo-lang-terms-conditions.php:36
+msgid "UPS Terms and Conditions"
+msgstr "Bepalingen en voorwaarden UPS"
+
+#: src/config/ups-eu-woo-router-config.php:106
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:38
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:53
+msgid "Account"
+msgstr "Account"
+
+#: src/config/ups-eu-woo-router-config.php:126
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:39
+msgid "Shipping Services"
+msgstr "Verzenddiensten"
+
+#: src/config/ups-eu-woo-router-config.php:146
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:34
+msgid "Collect on Delivery (COD)"
+msgstr "Contante betaling bij aflevering (Collect on Delivery, COD)"
+
+#: src/config/ups-eu-woo-router-config.php:178
+msgid "Package Dimensions"
+msgstr "Pakketafmetingen"
+
+#: src/config/ups-eu-woo-router-config.php:198
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:43
+msgid "Checkout Shipping Rates"
+msgstr "Verzendtarieven bij betaling"
+
+#: src/config/ups-eu-woo-router-config.php:218
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:44
+msgid "Complete Configuration"
+msgstr "Configuratie voltooien"
+
+#: src/config/ups-eu-woo-router-config.php:238
+msgid "Shipment management"
+msgstr "Leveringsbeheer"
+
+#: src/config/ups-eu-woo-router-config.php:254
+msgid "Shipment Manager"
+msgstr "Zendingsmanager"
+
+#: src/config/ups-eu-woo-router-config.php:276
+msgid "none_account"
+msgstr ""
+
+#: src/config/ups-eu-woo-router-config.php:314 src/config/ups-eu-woo-router-config.php:318
+msgid "ExportCSV"
+msgstr ""
+
+#: src/controllers/admin/ups-eu-woo-config-shipping-service.php:266
+msgid "Please select at least one shipping service."
+msgstr "Selecteer ten minste één verzenddienst."
+
+#: src/controllers/admin/ups-eu-woo-config-terms-condition.php:79
+msgid "Connection error, try later to install and configure"
+msgstr "Verbindingsfout, probeer het later nog eens te installeren en configureren"
+
+#: src/controllers/admin/ups-eu-woo-controller.php:122
+#: src/controllers/admin/ups-eu-woo-config-merchantcf.php:79
+msgid "UPS Shipping"
+msgstr "UPS Shipping"
+
+#: src/controllers/admin/ups-eu-woo-config-merchantcf.php:78
+msgid "You do not have permission access the page this"
+msgstr ""
+
+#: src/libsystems/ajax_json/ups-eu-woo-ajax-json-global.php:10
+msgid "Package: Some of the data you entered were not valid. Please check again."
+msgstr ""
+"Pakket: Sommige door u ingevoerde gegevens zijn niet geldig. Controleer deze opnieuw."
+
+#: src/libsystems/ajax_json/ups-eu-woo-ajax-json-shipbase.php:116
+msgid "The name is not empty"
+msgstr "De naam is niet leeg"
+
+#: src/libsystems/ajax_json/ups-eu-woo-ajax-json-shipbase.php:119
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:52
+msgid "The address is required"
+msgstr "Het adres is verplicht"
+
+#: src/libsystems/ajax_json/ups-eu-woo-ajax-json-shipbase.php:122
+msgid "The postal code is empty or invalid"
+msgstr "De postcode is leeg of ongeldig"
+
+#: src/libsystems/ajax_json/ups-eu-woo-ajax-json-shipbase.php:125
+msgid "The city is not empty"
+msgstr "De plaats is niet leeg"
+
+#: src/libsystems/ajax_json/ups-eu-woo-ajax-json-shipbase.php:128
+msgid "The phone is not empty"
+msgstr "Het telefoonnummer is niet leeg"
+
+#: src/libsystems/ajax_json/ups-eu-woo-ajax-json-shipbase.php:131
+msgid "The email is not empty"
+msgstr "De e-mail is niet leeg"
+
+#: src/libsystems/api_ups/ups-eu-woo-call-api-ups-configurations.php:190
+msgid ""
+". Please update the city and postal code values with one of these selections and click "
+"Get Started”"
+msgstr ""
+". Wijzig de invoer voor Plaats en Postcode met een van deze selecties en klik op 'Aan de "
+"slag'"
+
+#: src/libsystems/api_ups/ups-eu-woo-call-api-ups-configurations.php:197
+msgid ""
+"Your request to create a UPS Shipping Account was not successful. Please check the "
+"‘City’ and ‘Postal code’ values that you entered. Here are some suggestions on the City "
+"and Postal code that"
+msgstr ""
+
+#: src/libsystems/api_ups/ups-eu-woo-call-api-ups-configurations.php:225
+msgid ""
+"Your request to create a UPS Shipping Account was not successful. Please check the "
+"‘City’ and ‘Postal code’ values that you entered. Here are some suggestions on the City "
+"and Postal code that are a valid combination - "
+msgstr ""
+"Uw verzoek om een UPS Shipping-account te maken is mislukt. Controleer de door u "
+"ingevoerde waarden voor 'Plaats' en 'Postcode'. Enkele suggesties voor Plaats en "
+"Postcode die een geldige combinatie vormen: "
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:37
+msgid "ID"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:38
+msgid "method"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:39
+msgid "Full url"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:40
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:42
+msgid "Response"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:41
+msgid "Request"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:43
+msgid "Time Request"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:44
+msgid "Time Response"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:46
+msgid "Module version number and release date"
+msgstr "Versienummer en publicatiedatum van module"
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:47
+msgid "Module version v2.2.6"
+msgstr "Moduleversie v%s"
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:48
+msgid "Release date October 20, 2021"
+msgstr "Publicatiedatum dd mm yy"
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:49
+msgid "Changelog"
+msgstr "Wijzigingslogboek"
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:50
+msgid "Platform compatibility statement"
+msgstr "Verklaring over platformcompatibiliteit"
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:51
+msgid "UPS Shipping Module website"
+msgstr "Website UPS Shipping-module"
+
+#: src/libsystems/lang/ups-eu-woo-lang-accessorial-services.php:37
+msgid ""
+"You can select among the option you chose here when you chedule UPS pickups. Select the "
+"accessorial service best describe your package would eleminate the change being charged "
+"for wrong shipping information. Don't worry, you can select among your chosen services "
+"before creating a shipment."
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:36
+msgid "Your UPS Profile"
+msgstr "Uw UPS-profiel"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:37
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:36
+msgid ""
+"Please fill the form below to start configuring UPS plug-in for your e-commerce website"
+msgstr ""
+"Vul het onderstaande formulier in om de configuratie van de UPS-plug-in voor uw webshop "
+"te starten"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:38
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:52
+msgid "Invoice number"
+msgstr "Factuurnummer"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:39
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:53
+msgid "Invoice amount"
+msgstr "Factuurbedrag"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:40
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:60
+msgid ""
+"Reference name that will be associate with an account. For example warehouse 1, "
+"warehouse 2,  Store 1, Store 2 etc. You can freely chose the name as per your "
+"requirement."
+msgstr ""
+"Referentienaam die wordt gekoppeld aan een account. Bijvoorbeeld magazijn 1, magazijn 2, "
+"winkel 1, winkel 2 enz. U kunt de naam vrij kiezen."
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:41
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:62
+msgid ""
+"The name associated with your UPS account. It can be found on the top on each page of "
+"your UPS invoice under 'Purchaser'"
+msgstr ""
+"De naam die is gekoppeld aan uw UPS-account. Deze is vermeld aan de bovenzijde van elke "
+"pagina van uw UPS-factuur bij 'Koper'"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:42
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:61
+msgid ""
+"The postal code or zip code associated with your UPS account. It can be found on the top "
+"on each page of your UPS invoice under 'Purchaser'"
+msgstr ""
+"De postcode die is gekoppeld aan uw UPS-account. Deze is vermeld aan de bovenzijde van "
+"elke pagina van uw UPS-factuur bij 'Koper'"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:43
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:63
+msgid ""
+"A unique six character alphanumeric number that identifies your account. It can be found "
+"on the top left side on each page of your UPS invoice"
+msgstr ""
+"Een uniek alfanumeriek woord van zes tekens, waarmee uw account wordt geïdentificeerd. "
+"Deze is vermeld aan de linkerbovenzijde van elke pagina van uw UPS-factuur"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:44
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:64
+msgid ""
+"A unique 12 digit number assigned by UPS to an invoice. It can be found on the top left "
+"side on each page of your UPS invoice"
+msgstr ""
+"Een uniek 12-cijferig getal dat door UPS aan een factuur wordt toegewezen. Deze is "
+"vermeld aan de linkerbovenzijde van elke pagina van uw UPS-factuur"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:45
+msgid ""
+"Total Amount Due for the given invoice. It can be found on the 'Summary of Charges' "
+"table on the first page on the invoice\t\t\t\t\t\t"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:46
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:66
+msgid ""
+"Date of issuing the invoice. It can be found on the top left side on each page of your "
+"UPS invoice"
+msgstr ""
+"Uitgiftedatum van de factuur. Deze is vermeld aan de linkerbovenzijde van elke pagina "
+"van uw UPS-factuur"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:48
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:43
+msgid "Company"
+msgstr "Bedrijfsnaam"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:49
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:49
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:66
+msgid "City"
+msgstr "Plaats"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:50
+msgid "Default Account"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:51
+msgid "Your Payment Account"
+msgstr "Uw betalingsaccount"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:52
+msgid "Add another account number"
+msgstr "Een ander accountnummer toevoegen"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:53
+msgid "Please enter the address attached to your account number"
+msgstr "Voer het adres in dat is gekoppeld aan uw accountnummer"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:54
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:44
+msgid "Address type"
+msgstr "Adrestype"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:55
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:45
+msgid "Example: Warehouse, Branch #1"
+msgstr "Bijvoorbeeld: Magazijn, afdeling nr. 1 enz."
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:56
+msgid "Your business name"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:57
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:46
+msgid "Street Address"
+msgstr "Adres"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:58
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:47
+msgid "Apartment, Suite, Unit, Building, Floor, etc."
+msgstr "Appartement, kamer, unit, gebouw, etage enz."
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:59
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:48
+msgid "Department, c/o, etc."
+msgstr "Afdeling, p/a enz."
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:60
+msgid "Phone"
+msgstr "Telefoonnummer"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:61
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:50
+msgid ""
+"I have a UPS Account Number WITH an invoice occurred in the last 45 days (90 days if "
+"your account is in the US or Canada)"
+msgstr ""
+"Ik heb een UPS-accountnummer MET facturatie in de afgelopen 45 dagen (90 dagen als uw "
+"account is aangemeld in de VS of Canada)"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:62
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:51
+msgid ""
+"The invoice should be 1 of the last 3 issued by UPS in last 45 days (90 days if your "
+"account is in the US or Canada)"
+msgstr ""
+"De factuur moet 1 van de 3 laatste facturen van UPS zijn in de afgelopen 45 dagen (90 "
+"dagen als uw account is aangemeld in de VS of Canada)"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:63
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:54
+msgid "Invoice date"
+msgstr "Factuurdatum"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:64
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:55
+msgid ""
+"I have a UPS Account Number WITHOUT an invoice occurred in the last 45 days (90 days if "
+"your account is in the US or Canada)"
+msgstr ""
+"Ik heb een UPS-accountnummer ZONDER facturatie in de afgelopen 45 dagen (90 dagen als uw "
+"account is aangemeld in de VS of Canada)"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:65
+msgid "Verify"
+msgstr "Verifiëren"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:66
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:67
+msgid "This account will be removed. Click Ok to confirm, close the dialog to cancel."
+msgstr ""
+"Dit account wordt verwijderd. Klik op OK om te bevestigen, sluit het dialoogvenster om "
+"te annuleren."
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:68
+msgid "Remove Account"
+msgstr "Account verwijderen"
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:36
+msgid "You can start shipping now!"
+msgstr "U kunt nu beginnen met verzenden!"
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:37
+msgid ""
+"Click on the \"Complete Configuration\" button to finish the configuration of the plug-"
+"in and start offering UPS shipping services on your website.<br>"
+msgstr ""
+"Klik op de knop 'Configuratie voltooien' om de configuratie van de plug-in te voltooien. "
+"Vanaf nu worden de UPS-verzenddiensten op uw website aangeboden."
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:38
+msgid ""
+"If you are new to UPS, please refer to the following FAQs for additional information -"
+msgstr ""
+"Als u nieuw bent bij UPS, kunt u de volgende veelgestelde vragen raadplegen voor meer "
+"informatie -"
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:39
+msgid ""
+"1. How do I get more information about my new UPS shipping account?<br>If you opened a "
+"new UPS shipping account from the plug-in, a confirmation email with more information "
+"will be sent to the email address that you entered while creating the new account."
+"<br><br>2. How do I prepare my packages for UPS collection or drop off to a UPS Access "
+"Point™?<br>Refer to the package preparation recommendations at this link - <a "
+"target='_blank' href='%s'>%s</a><br><br>3. How do I give my packages to UPS?<br>You can "
+"drop you packages at any authorized UPS location such as a UPS Access Point™. Click "
+"below to search for a convenient access point location near you."
+msgstr ""
+"1. Hoe kan ik meer informatie krijgen over mijn nieuwe UPS-verzendaccount?<br>Als u een "
+"nieuw UPS-verzendaccount vanuit de plug-in hebt geopend, wordt een bevestigingsmail met "
+"meer informatie verstuurd naar het e-mailadres dat u tijdens het maken van het nieuwe "
+"account hebt ingevoerd.<br><br>2. Hoe bereid ik mijn pakketten voor op de ophaalservice "
+"van UPS of op het afgeven bij een UPS Access Point™?<br>Raadpleeg de aanbevelingen voor "
+"pakketvoorbereiding via deze link -<a target='_blank' href='%s'>%s</a> <br><br>3. Hoe "
+"geef ik mijn pakketten af aan UPS?<br>U kunt uw pakketten bij elke erkende UPS-locatie "
+"afgeven, zoals een UPS Access Point™. Klik hieronder om te zoeken naar een gunstig "
+"liggend Access Point bij u in de buurt."
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:40
+msgid "Search Access Point™"
+msgstr "Access Point™ zoeken"
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:41
+msgid "REGULAR PICKUP AND COD REGISTRATION"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:42
+msgid ""
+"You can also ask UPS to pickup packages from your warehouse or business address. If you "
+"need an occasional pickup, you can directly schedule a pickup from UPS.COM using this "
+"link - <a target='_blank' href='%s'>%s</a><br><br> If you have UPS packages on most "
+"business days and would prefer a regular UPS pickup, you can contact UPS by calling at "
+"the phone number provided under Billing Questions <a target='_blank' href='%s'>here</a>. "
+"Then a UPS representative will be in touch with you to discuss a daily UPS pickup."
+msgstr ""
+"U kunt ook UPS vragen om pakketten op te halen bij uw magazijn of op uw bedrijfsadres. "
+"Als u de ophaalservice incidenteel gebruikt, kunt rechtstreeks een tijdstip voor ophalen "
+"inplannen bij UPS.COM via deze link - <a target='_blank' href='%s'>%s</a><br><br>Als u "
+"op de meeste werkdagen pakketten voor UPS heeft en u graag een vaste afhaling wilt "
+"inplannen, kunt u contact met ons opnemen door het telefoonnummer te bellen dat u <a "
+"target='_blank' href='%s'>hier</a> onder 'vragen over facturatie' kunt vinden. "
+"Vervolgens zal een UPS-vertegenwoordiger contact met u opnemen om een dagelijkse "
+"afhaling te bespreken."
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:43
+msgid "Download COD and Pickup Registration form"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:44
+msgid "SCHEDULE A PICKUP"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:45
+msgid "If you do not ship on a daily base, please go to ups.com to schedule a pick-up."
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:46
+msgid "MANAGE MY PAYMENT OPTIONS"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:47
+msgid ""
+"If you want to change your payment methods or enroll for other billing tools, please go "
+"to ups.com."
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:48
+msgid "Local tax(es) is included in the shipping fee"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:49
+msgid "REGISTER FOR PREMIUM SERVICE BY UPS"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:50
+msgid ""
+"4. What steps do I need to take to set up a UPS Collect on Delivery (COD) service?"
+"<br>You can contact UPS by calling at the phone number provided under Billing Questions "
+"<a target='_blank' href='%s'>here</a>. Then a UPS representative will be in touch with "
+"you to discuss the COD service."
+msgstr ""
+"4. Wat moet ik doen om een COD-dienst (Collect on Delivery) bij UPS in te stellen?<br>U "
+"kunt contact met ons opnemen door het telefoonnummer te bellen dat u <a target='_blank' "
+"href='%s'>hier</a> onder 'vragen over facturatie' kunt vinden. Vervolgens neemt een "
+"vertegenwoordiger van UPS contact met u op om de C.O.D service te bespreken."
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:36
+msgid "Deliver to an UPS Access Point™"
+msgstr "Afleveren bij een Access Point™"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:37
+msgid "Your package will be delivered to an UPS Access Point™"
+msgstr "Uw pakket wordt afgeleverd bij een UPS Access Point™"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:38
+msgid "Deliver to Your Address"
+msgstr "Afleveren op uw adres"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:39
+msgid "Your package will be delivered to your address"
+msgstr "Uw pakket wordt afgeleverd op uw adres"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:40
+msgid "Search for the Access Point™"
+msgstr "Naar het Access Point™ zoeken"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:41
+msgid "Please select an UPS Access Point™ to process"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:42
+msgid "Near"
+msgstr "In de buurt"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:43
+msgid "Use my delivery address"
+msgstr "Gebruik mijn afleveradres"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:44
+msgid "Search"
+msgstr "Zoeken"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:45
+msgid "Address line, City, State, Postcode"
+msgstr "Adresregel, plaats, land, postcode"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:46
+msgid "Results"
+msgstr "Resultaten"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:47
+msgid "Operating Hours"
+msgstr "Werktijden"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:48
+msgid "Select"
+msgstr "Selecteren"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:49
+msgid "Open"
+msgstr "Open"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:50
+msgid "Closed"
+msgstr "Gesloten"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:51
+msgid "Please select an Access Point to process"
+msgstr "Selecteer een Access Point ter verwerking"
+
+#: src/libsystems/lang/ups-eu-woo-lang-cod.php:36
+msgid "COD option"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-cod.php:37
+msgid "On"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-cod.php:38
+msgid "You have the official WooCommerce COD module enabled!"
+msgstr "U hebt de officiële WooCommerce COD-module ingeschakeld."
+
+#: src/libsystems/lang/ups-eu-woo-lang-cod.php:39
+msgid ""
+"The COD Shipping service of this plug-in is automatically compatible with the official "
+"Collect on Delivery (COD) module by WooCommerce."
+msgstr ""
+"De COD-verzenddienst van deze plug-in is automatisch compatibel met de officiële COD-"
+"module van WooCommerce."
+
+#: src/libsystems/lang/ups-eu-woo-lang-cod.php:40
+msgid "You do not have the official WooCommerce COD module installed and/or enabled!"
+msgstr "U hebt de officiële WooCommerce COD-module niet geïnstalleerd en/of ingeschakeld."
+
+#: src/libsystems/lang/ups-eu-woo-lang-cod.php:41
+msgid ""
+"If you want the UPS Shipping module to automatically detect COD shipments, <b>please "
+"make sure that you have installed WooCommerce's Collect on Delivery (COD)</b>. If you "
+"already have WooCommerce's Collect on Delivery (COD) module installed, <b>please make "
+"sure that the module is enabled</b>. <a target='_blank' href='https://docs.woocommerce."
+"com/document/cash-on-delivery/'>[Click here]</a> for detailed guidance."
+msgstr ""
+"Als u wilt dat de UPS Shipping-module automatisch COD-verzendingen kan detecteren, "
+"<b>moet u ervoor zorgen dat de COD-module van WooCommerce's is geïnstalleerd</b>. Als u "
+"de COD-module van WooCommerce's al hebt geïnstalleerd, <b>moet u ervoor zorgen dat de "
+"module is ingeschakeld</b>. <a target='_blank' href='https://docs.woocommerce.com/"
+"document/cash-on-delivery/'>[Klik hier]</a> voor een gedetailleerde handleiding."
+
+#: src/libsystems/lang/ups-eu-woo-lang-cod.php:42
+msgid "Select \"YES\" if you plan to offer COD shipments to a UPS Access Points"
+msgstr "Selecteer 'JA' als u COD-verzendingen naar UPS Access Points wilt aanbieden"
+
+#: src/libsystems/lang/ups-eu-woo-lang-cod.php:43
+msgid "Only show Access Points supporting COD shipments?"
+msgstr "Alleen Access Points weergeven die COD-verzendingen ondersteunen?"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:27
+msgid "UPS® Standard"
+msgstr "UPS® Standard"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:28
+msgid "UPS Expedited®"
+msgstr "UPS Expedited®"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:29
+msgid "UPS Express Saver®"
+msgstr "UPS Express Saver®"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:30
+msgid "UPS Express®"
+msgstr "UPS Express®"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:31
+msgid "UPS Express Plus®"
+msgstr "UPS Express Plus®"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:35
+msgid "UPS Shipping Module"
+msgstr "UPS Shipping-module"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:36
+msgid "To AP"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:37
+msgid "To Address"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:40
+msgid "Cash on Delivery (COD)"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:41
+msgid "Accessorial Services"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:42
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:37
+msgid "Default package setting"
+msgstr "Standaard pakketinstelling"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:54
+msgid "Please select an option"
+msgstr "Maak een keuze"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:57
+msgid "Basic (number of items in the e-shopper order determine the package size)"
+msgstr "Basis (aantal artikelen in de e-shopperbestelling bepalen de pakketgrootte)"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:58
+msgid ""
+"Advanced (weights and dimensions of products in the e-shopper order determine the "
+"package size)"
+msgstr ""
+"Geavanceerd (gewichten en afmetingen van producten in de e-shopperbestelling bepalen de "
+"pakketgrootte)"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:66
+msgid "Service Name"
+msgstr "Naam service"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:67
+msgid "Rate"
+msgstr "Tarief"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:55
+msgid ""
+"Add default packages if you would like the package size used for rating to change based "
+"on the number of items in the e-shopper’s order"
+msgstr ""
+"Voeg standaardpakketten toe als u de pakketgrootte voor de tariefberekening wilt "
+"wijzigen op basis van het aantal artikelen in de bestelling van de e-shopper"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:56
+msgid ""
+"Note: if the number of items in the e-shopper order do not match any of your entries, "
+"then the size of the package used for rating will be based on that of the highest item "
+"count exceeded by the e-shopper order."
+msgstr ""
+"Opmerking: als het aantal artikelen in de bestelling van de e-shopper niet overeenkomt "
+"met uw invoer, dan wordt de grootte van het pakket, gebruikt voor de tariefberekening, "
+"gebaseerd op die van het hoogste aantal items dat overschreden wordt door de bestelling "
+"van de e-shopper."
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:65
+msgid ""
+"Warning! To use this option you must enter product weights in the product settings of "
+"your shop"
+msgstr ""
+"Waarschuwing! Om deze optie te gebruiken, moet u productgewichten invoeren in de "
+"productinstellingen van uw winkel"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:61
+msgid ""
+"If set to “No”, rates will be based on product weights only.  If set to “Yes”, product "
+"dimensions must be entered in the product settings of your shop"
+msgstr ""
+"Indien ingesteld op 'Nee', dan worden de tarieven alleen gebaseerd op de "
+"productgewichten.  Indien ingesteld op 'Ja', dan moeten de productafmetingen worden "
+"ingevoerd in de productinstellingen van uw winkel"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:64
+msgid ""
+"Backup Rate will only display to e-shoppers if there is an issue within product "
+"settings, such as weights missing or if weights/dimensions exceed UPS limits"
+msgstr ""
+"Noodtarieven worden alleen weergegeven voor e-shoppers als er een probleem is met de "
+"productinstellingen, zoals ontbrekende gewichten of als de gewichten/afmetingen de UPS-"
+"limieten overschrijden"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:60
+msgid "Include dimensions in rating"
+msgstr "Afmetingen opnemen in de tariefberekening"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:62
+msgid "Backup Rate"
+msgstr "Noodtarief"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:67
+msgid "Number of items in order"
+msgstr "aantal artikelen in bestelling"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:62
+msgid "Add Backup Rate"
+msgstr "verzend tarief"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:94
+msgid "Maximum Weight"
+msgstr "Maximaal gewicht"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:93
+msgid "Package dimensions"
+msgstr "Pakketafmetingen"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:91
+msgid "Add new package"
+msgstr "Nieuw pakket toevoegen"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:92
+msgid ""
+"Note: the plugin will create a custom package size if an e-shopper order is larger than "
+"the packages you enter"
+msgstr ""
+"Opmerking: de plug-in maakt een aangepaste pakketgrootte als een e-shopperbestelling "
+"groter is dan de pakketten die u invoert"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:45
+msgid "Ok"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:46
+msgid "Close"
+msgstr "Sluiten"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:47
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:48
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:77
+msgid "Edit"
+msgstr "Bewerken"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:49
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:50
+msgid "Save"
+msgstr "Opslaan"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:51
+msgid "Next"
+msgstr "Volgende"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:52
+msgid "Continue"
+msgstr "Doorgaan"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:53
+msgid "Print"
+msgstr "Afdrukken"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:54
+msgid "Weight"
+msgstr "Gewicht"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:55
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:57
+msgid "Unit"
+msgstr "Eenheid"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:56
+msgid "Dimension"
+msgstr "Afmeting"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:58
+msgid "Length"
+msgstr "Lengte"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:59
+msgid "Width"
+msgstr "Breedte"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:60
+msgid "Height"
+msgstr "Hoogte"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:61
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:45
+msgid "min = 0.01 max = 9999.99"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:62
+msgid "minlength = 1 maxlength = 50"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:63
+msgid "Data saved successfull"
+msgstr "Gegevens met succes opgeslagen."
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:64
+msgid "Print form"
+msgstr "Formulier afdrukken"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:65
+msgid "Some of the data you entered were not valid. Please check again."
+msgstr "Sommige door u ingevoerde gegevens zijn niet geldig. Controleer deze opnieuw."
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:66
+msgid "Yes"
+msgstr "Ja"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:67
+msgid "No"
+msgstr "Nee"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:68
+msgid "Account number already exists in 'Your Payment Account'"
+msgstr "Het accountnummer bestaat al in 'Uw betalingsaccount'"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:69
+msgid "Additional Handling"
+msgstr "Extra afhandeling"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:70
+msgid "Quantum View Ship Notification"
+msgstr "Verzendbericht Quantum View"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:71
+msgid "Quantum View Delivery Notification"
+msgstr "Afleverbericht Quantum View"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:72
+msgid "Residential Address"
+msgstr "Woonadres"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:73
+msgid "Saturday Delivery"
+msgstr "Aflevering op zaterdag"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:74
+msgid "Carbon Neutral"
+msgstr "Carbon Neutral"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:75
+msgid "Direct Delivery Only"
+msgstr "Alleen rechtstreekse levering"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:76
+msgid "Declared value"
+msgstr "Aangegeven waarde"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:77
+msgid "Signature Required"
+msgstr "Handtekening vereist"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:78
+msgid "Adult Signature Required"
+msgstr "Handtekening volwassene vereist"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:79
+msgid "To Access Point COD"
+msgstr "Naar Access Point COD"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:80
+msgid "To Home COD"
+msgstr "COD naar woonadres"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:81
+msgid "UPS Access Point Economy"
+msgstr "UPS Access Point™ Economy"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:102
+msgid "Billing Preference"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:103
+msgid "We couldn't find any records"
+msgstr "We konden geen gegevens vinden"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:104
+msgid "COD"
+msgstr "COD"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:105
+msgid "Delivery Address"
+msgstr "Afleveradres"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:106
+msgid "Order ID"
+msgstr "Bestellings-ID"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:107
+msgid "Country/Territory"
+msgstr "Land/Regio"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:108
+msgid "Email"
+msgstr "E-mail"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:109
+msgid "Phone number"
+msgstr "Telefoonnummer"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:110
+msgid "Address"
+msgstr "Adres"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:111
+msgid "Postal code"
+msgstr "Postcode"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:112
+msgid "Account name"
+msgstr "Accountnaam"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:113
+msgid "Account number"
+msgstr "Accountnummer"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:114
+msgid "Currency"
+msgstr "Valuta"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:115
+msgid "Open Orders"
+msgstr "Openstaande bestellingen"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:116
+msgid "Shipments"
+msgstr "Zendingen"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:117
+msgid "Archived Orders"
+msgstr "Bestellingen gearchiveerd"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:118
+msgid "Order Date"
+msgstr "Besteldatum"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:119
+msgid "Order Time"
+msgstr "Tijdstip van bestelling"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:120
+msgid "Product"
+msgstr "Product"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:121
+msgid "Shipping Service"
+msgstr "Verzendservice"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:122
+msgid "Customer Address line 1"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:123
+msgid "Customer Address line 2"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:124
+msgid "Customer Address line 3"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:125
+msgid "Customer PostalCode"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:126
+msgid "Customer City"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:127
+msgid "Customer StateOrProvince"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:128
+msgid "Customer Country"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:129
+msgid "Customer Email"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:130
+msgid "AlternateDeliveryAddressIndicator"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:131
+msgid "UPSAccessPointID"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:132
+msgid "Access Point Address line 1"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:133
+msgid "Access Point Address line 2"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:134
+msgid "Access Point Address line 3"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:135
+msgid "Access Point City"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:136
+msgid "Access Point StateOrProvince"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:137
+msgid "Access Point PostalCode"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:138
+msgid "Access Point Country"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:139
+msgid "Shipping service"
+msgstr "Verzendservice"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:140
+msgid ""
+"For more information on UPS Plugins please click <a target='_blank' href='%s'>this link</"
+"a> (opens in a new browser window)"
+msgstr ""
+"Klik op de volgende <a target='_blank' href='%s'>link</a> voor meer informatie over UPS-"
+"plug-ins (wordt in een nieuw browservenster geopend)"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:141
+msgid "There are errors connecting to the UPS API servers. Please try again."
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-country.php:37
+msgid "Please select your country/territory"
+msgstr "Selecteer uw land/regio"
+
+#: src/libsystems/lang/ups-eu-woo-lang-country.php:38
+#: src/models/ups-eu-woo-model-options.php:84 src/models/ups-eu-woo-model-options.php:107
+msgid "Poland"
+msgstr "Polen"
+
+#: src/libsystems/lang/ups-eu-woo-lang-country.php:39
+#: src/models/ups-eu-woo-model-options.php:90 src/models/ups-eu-woo-model-options.php:113
+msgid "United Kingdom"
+msgstr "Verenigd Koninkrijk"
+
+#: src/libsystems/lang/ups-eu-woo-lang-country.php:40
+#: src/models/ups-eu-woo-model-options.php:91 src/models/ups-eu-woo-model-options.php:114
+msgid "United States"
+msgstr "Verenigde Staten"
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:36
+msgid "Ship to UPS Access Point™"
+msgstr "Verzenden naar UPS Access Point™"
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:37
+msgid ""
+"The e-shopper will see the % of real time UPS rates. These rates are calculated using "
+"the default package weight and dimensions that you configured in the previous screen "
+"(Package Dimensions).<br><br>Please Note :<br>1. UPS real time shipping rates are "
+"exclusive of VAT. If you want to display the rates including VAT, please add the VAT % "
+"to the shipping rate. E.g. If VAT is 23%, and you want to display rates including VAT, "
+"you should insert 123% above.<br>2. The e-shopper may select COD as a payment option "
+"within the Woocommerce checkout after the shipping rates are calculated. In this "
+"scenario, UPS COD surcharges which will be billed, are not added to the displayed "
+"shipping rates automatically. This is due to the order in which Woocommerce displays "
+"shipping and payment options."
+msgstr ""
+"De webshopklant ziet het percentage van de realtime UPS-tarieven. Deze tarieven worden "
+"berekend met gebruikmaking van het gewicht en de afmetingen van het standaardpakket dat "
+"u in het vorige scherm hebt geconfigureerd (Pakketafmetingen).<br><br>Let op:<br>1. "
+"Realtime verzendtarieven van UPS zijn exclusief BTW. Als u de verzendtarieven inclusief "
+"BTW wilt laten weergeven, moet u het BTW-percentage aan het verzendtarief toevoegen. Als "
+"het BTW-percentage bijvoorbeeld 23% bedraagt en u wilt de tarieven inclusief BTW "
+"weergeven, moet u hierboven 123% invullen.<br>2. De webshopklant kan COD als "
+"betalingsoptie kiezen in de Woocommerce-betaling nadat de verzendtarieven zijn berekend. "
+"In dit geval worden de te factureren COD-toeslagen van UPS niet automatisch bij de "
+"weergegeven verzendtarieven opgeteld. Dit wordt veroorzaakt door de volgorde waarin "
+"Woocommerce de verzend- en betalingsopties weergeeft."
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:38
+msgid ""
+"Please Note : Because COD is a payment option in shopping cart that is selected by e-"
+"shopper after selecting UPS service in the website check out, the UPS plug-in cannot "
+"automatically add back UPS COD charges in the total shipping fee even if you show UPS "
+"shipping rates in the check-out."
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:39
+msgid "Ship to Address"
+msgstr "Verzenden naar adres"
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:40
+msgid "Order Value threshold"
+msgstr "Drempel opdrachtwaarde"
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:41
+msgid "Delivery rates"
+msgstr "Leveringstarieven"
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:42
+msgid "Delivery rates is"
+msgstr "Afleveringstarief is"
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:43
+msgid "% of UPS shipping rates"
+msgstr "% van UPS-verzendtarieven"
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:44
+msgid "Save error"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:46
+msgid "minlength = 0.01 maxlength = 9999.99"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:47
+msgid "min = 1.00max = 100.00"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:37
+msgid "Title"
+msgstr "Titel"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:38
+msgid "Full name"
+msgstr "Volledige naam"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:39
+msgid "Mr"
+msgstr "De heer"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:40
+msgid "Miss"
+msgstr "Mevrouw"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:41
+msgid "Mrs"
+msgstr "Mevrouw"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:42
+msgid "Ms"
+msgstr "Mevrouw"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:56
+msgid "I do not have a UPS Account Number and would like to get one from the plug-in"
+msgstr "Ik heb geen UPS-accountnummer, maar ik wil er graag een ontvangen via de plug-in"
+
+msgid ""
+"I don’t have a UPS account number and would like to get one with discounted rates from "
+"the plug-in"
+msgstr "Ik heb geen UPS-accountnummer, maar ik wil er graag een ontvangen via de plug-in"
+
+msgid ""
+"Business to business shipments from the US to Europe require VAT number. If you do not "
+"have a VAT number at this time, you can add to your account at a later date on UPS.com."
+msgstr ""
+"Business to business shipments from the US to Europe require VAT number. If you do not "
+"have a VAT number at this time, you can add to your account at a later date on UPS.com. "
+"NL"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:57
+msgid "VAT number"
+msgstr "BTW-nummer"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:58
+msgid "Promo Code"
+msgstr "Promotiecode"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:59
+msgid "Get started"
+msgstr "Aan de slag"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:65
+msgid ""
+"Total Amount Due for the given invoice. It can be found on the 'Summary of Charges' "
+"table on the first page on the invoice"
+msgstr ""
+"Totaal verschuldigd bedrag van de betreffende factuur. Deze is vermeld op de eerste "
+"pagina van de factuur bij 'Kostenoverzicht'"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:67
+msgid ""
+"Please Note : Shippers are prohibited from shipping dangerous goods or hazardous "
+"materials using the account opened in this application."
+msgstr ""
+"Opmerking: Het is verboden voor afzenders om gevaarlijke goederen of gevaarlijke "
+"materialen te versturen met het account dat in deze toepassing is geopend."
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:68
+msgid ""
+"Your account will support deliveries to authorized UPS Access Point locations after 24 "
+"hours."
+msgstr ""
+"Met uw account worden leveringen ondersteund naar geautoriseerde UPS Access Point-"
+"locaties na 24 uur."
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:69
+msgid ""
+"You can find more information on dangerous goods and how UPS can support you shipping "
+"them on this link"
+msgstr ""
+"Via de volgende link kunt u meer informatie vinden over gevaarlijke goederen en over hoe "
+"UPS u kan helpen bij het verzenden hiervan"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:70
+msgid ""
+"https://www.ups.com/pl/en/help-center/packaging-and-supplies/special-care-shipments/"
+"global-dangerous-goods.page"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:36
+msgid "Order"
+msgstr "Bestelling"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:37
+msgid "Create Single Shipments"
+msgstr "Afzonderlijke zendingen maken"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:38
+msgid "Create Batch Shipments"
+msgstr "Groepszendingen maken"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:39
+msgid "Export All Orders"
+msgstr "Alle bestellingen exporteren"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:40
+msgid "Export Orders"
+msgstr "Bestellingen exporteren"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:41
+msgid "Archive Orders"
+msgstr "Bestellingen archiveren"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:42
+msgid "COD Amount"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:43
+msgid "COD Currency"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:44
+msgid "Total Paid"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:45
+msgid "Total Products"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:46
+msgid "Accessorials Service"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:47
+msgid "Product Name"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:48
+msgid "Merchant UPSaccount Number"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:49
+msgid "Customer"
+msgstr "Klant"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:50
+msgid "Customer Last Name"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:51
+msgid "Customer First Name"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:52
+msgid "Customer Phone"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:53
+msgid "Currency State"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:54
+msgid ""
+"Warning - Archiving orders will move your orders in the Archive tab and you can no "
+"longer process these orders. Click 'OK' to continue, 'Cancel' to go back to the screen"
+msgstr ""
+"Waarschuwing – Door het archiveren van bestellingen worden deze naar het tabblad Archief "
+"verplaatst, waarna u deze bestellingen niet langer kunt verwerken. Klik op 'OK' om "
+"verder te gaan; klik op 'Annuleren' om terug te gaan naar het scherm"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:55
+msgid "Access Point"
+msgstr "Access Point"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:56
+msgid "Accessorial Service"
+msgstr "Extra diensten"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:57
+msgid "Order volume"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:58
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:52
+msgid "Order value"
+msgstr "Bestelwaarde"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:59
+msgid "Payment status"
+msgstr "Betalingsstatus"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:60
+msgid "Archiving Orders"
+msgstr "Bestellingen archiveren"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:62
+msgid "Process Shipment"
+msgstr "Zending verwerken"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:63
+msgid "Ship From"
+msgstr "Herkomst"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:64
+msgid "Ship To"
+msgstr "Bestemming"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:65
+msgid "Name"
+msgstr "Naam"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:67
+msgid "State"
+msgstr "Staat"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:69
+msgid "Note: Insufficient or incorrect address may increase the shipping fee"
+msgstr ""
+"Opmerking: Door onvoldoende of onjuiste adresgegevens kunnen de verzendkosten hoger "
+"worden"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:70
+msgid "Accessorial service"
+msgstr "Extra diensten"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:71
+msgid "Packaging"
+msgstr "Verpakkingen"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:72
+msgid "Package"
+msgstr ""
+
+msgid "Package #"
+msgstr "Pakket nr. "
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:73
+msgid "Custom Package"
+msgstr "Aangepast pakket"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:74
+msgid "Add package"
+msgstr "Pakket toevoegen"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:75
+msgid "View estimated shipping fee and delivery date"
+msgstr "Geschatte verzendkosten en afleverdatum weergeven"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:76
+msgid "Cancel Editing"
+msgstr "Bewerken annuleren"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:78
+msgid "Create Shipment"
+msgstr "Zending maken"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:79
+msgid "Orders to be processed"
+msgstr "Te verwerken bestellingen"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:36
+msgid "Default package"
+msgstr "Standaardpakket"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:38
+msgid ""
+"Please enter weight and dimensions of your packaging here. You can add multiple package "
+"dimensions, which can be easily selected in a dropdown option when creating shipments in "
+"the plug-in.<br><br>In case you decide to show the real time UPS shipping rate (to be "
+"configured in the next screen) to the e-shoppers, the plug-in will use the first "
+"package, referred to as the \"Default Package\" that is displayed below. The Default "
+"Package's weight and dimensions will be used to calculate the UPS shipping rates that "
+"will be displayed to the e-shoppers."
+msgstr ""
+"Voer hier het gewicht en de afmetingen van uw pakket in. U kunt meerdere "
+"pakketafmetingen toevoegen die later eenvoudig in het vervolgkeuzemenu kunnen worden "
+"geselecteerd bij het maken van verzendingen in de plug-in.<br><br>Als u het realtime UPS-"
+"verzendtarief wilt weergeven (die in het volgende scherm moet worden geconfigureerd) in "
+"uw webshop, wordt het eerste pakket door de plug-in gebruikt. Dit pakket wordt "
+"'Standaardpakket' genomen en is hieronder weergegeven. Het gewicht en de afmetingen van "
+"het Standaardpakket worden gebruikt om de UPS-verzendtarieven te berekenen die worden "
+"weergegeven in de webshop."
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:39
+msgid "Add New Package"
+msgstr "Nieuw pakket toevoegen"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:40
+msgid "Add Package"
+msgstr "Pakket toevoegen"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:41
+msgid "Remove Package"
+msgstr "Pakket verwijderen"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:42
+msgid ""
+"You are going to remove this default package from your profile.<br>Click Ok to confirm, "
+"close the dialog to cancel."
+msgstr ""
+"U staat op het punt om dit standaardpakket uit uw profiel te verwijderen.<br>Klik op OK "
+"om te bevestigen, sluit het dialoogvenster om te annuleren."
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:43
+msgid "Input missing"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:44
+msgid "Please input at least one default package to continue"
+msgstr "Voer ten minste één standaardpakket in om door te gaan."
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:45
+msgid "Package name"
+msgstr "Pakketnaam"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:46
+msgid "Example: Standard, Large, Phone box, etc."
+msgstr "Bijvoorbeeld: Standaard, groot, telefoonbox, enz."
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:47
+msgid "Editing Default Package"
+msgstr "Standaardpakket bewerken"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:36
+msgid "Print Label"
+msgstr "Etiket afdrukken"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:31
+msgid "Download PDF Label"
+msgstr "Download PDF-Label"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:34
+msgid "Download ZPL Label"
+msgstr "Download ZPL Label"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:37
+msgid "Export Shipment Data"
+msgstr "Zendingsgegevens exporteren"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:38
+msgid "Cancel Shipments"
+msgstr "Zendingen annuleren"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:39
+msgid "ID Shipment"
+msgstr "Zendings-ID"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:40
+msgid "Tracking Number"
+msgstr "Trackingnummer"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:41
+msgid "Date"
+msgstr "Datum"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:42
+msgid "Time"
+msgstr "Tijdstip"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:43
+msgid "Estimated Shipping Fee"
+msgstr "Geschatte verzendkosten"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:44
+msgid "Shipment ID"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:45
+msgid "Tracking number"
+msgstr "Trackingnummer"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:46
+msgid "deliveryStatus"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:47
+msgid "CODAmount"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:48
+msgid "CODCurrency"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:49
+msgid "Estimated shipping fee"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:50
+msgid "Accessorials"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:51
+msgid "Order date"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:53
+msgid "Shipping fee"
+msgstr "Verzendkosten"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:54
+msgid "Package details"
+msgstr "Pakketgegevens"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:55
+msgid "Product details"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:56
+msgid "Customer name"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:57
+msgid "Customer Phone no"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:58
+msgid "LabelShipment"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:59
+msgid "Cancel Shipment(s)"
+msgstr "Zendingen annuleren"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:60
+msgid "Are you sure you want to cancel selected shipment(s)?"
+msgstr "Weet u zeker dat u de geselecteerde zending(en) wilt annuleren?"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:61
+msgid "Shipment"
+msgstr "Zending"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:62
+msgid "Order #ID reference"
+msgstr "Referentie bestelnummer-ID"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:63
+msgid "UPS Tracking Terms and Conditions"
+msgstr "Bepalingen en voorwaarden UPS Tracking"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:64
+msgid ""
+"NOTICE: The UPS package tracking systems accessed via this service (the “Tracking "
+"Systems”) and tracking information obtained through this service (the “Information”) is "
+"the private property of UPS. UPS authorizes you to use the Tracking Systems solely to "
+"track shipments tendered by or for you to UPS for delivery and for no other purpose. "
+"Without limitation, you are not authorized to make the Information available on any web "
+"site or otherwise reproduce, distribute, copy, store, use or sell the Information for "
+"commercial gain without the express written consent of UPS. This is a personal service, "
+"thus your right to use the Tracking Systems or Information is non-assignable. Any access "
+"or use that is inconsistent with these terms is unauthorized and strictly prohibited."
+msgstr ""
+"KENNISGEVING: De UPS Pakket Traceersystemen geraadpleegd via deze dienst (de "
+"'Traceersystemen') en traceergegevens verkregen via deze dienst (de 'Gegevens') zijn het "
+"eigendom van UPS. UPS geeft u slechts toestemming om de Traceersystemen te gebruiken om "
+"verzendingen te volgen die door of voor u aan UPS zijn aangeboden om te worden "
+"afgeleverd en voor geen enkel ander doel. U heeft het recht niet, zonder enige "
+"beperking, om de Informatie op een website beschikbaar te maken of op een andere manier "
+"te vermenigvuldigen, te verspreiden, te kopiëren, op te slaan, te gebruiken of te "
+"verkopen voor commerciële winstgevende doeleinden zonder uitdrukkelijke schriftelijke "
+"toestemming van UPS. Dit is een persoonlijke dienst, dus uw recht om de Traceerfuncties "
+"of Informatie te gebruiken is niet overdraagbaar. Elke raadpleging of elk gebruik in "
+"strijd met deze voorwaarden is ongeoorloofd en strikt verboden."
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:65
+msgid ""
+"By selecting any order in this shipment tab, I agree to the <a href=\"javascript:"
+"\">Terms and Conditions</a>."
+msgstr ""
+"Door het selecteren van een bestelling in dit tabblad Zendingen ga ik akkoord met de <a "
+"href=\"javascript:\">Bepalingen en voorwaarden</a>."
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:66
+msgid "Shipment canceled"
+msgstr "Zending geannuleerd"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:67
+msgid ""
+"We are unable to void this shipment at this time. You may attempt to void the shipment "
+"later. However you will not be billed for this shipment provided that you do not use the "
+"shipping label"
+msgstr ""
+"We kunnen deze zending nu niet annuleren. U kunt later nog eens proberen om de zending "
+"te annuleren. U wordt echter niet gefactureerd voor deze zending, op voorwaarde dat u "
+"het verzendetiket niet gebruikt"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:36
+msgid "Deliver to UPS Access Point™ (to-AP delivery)"
+msgstr "Afleveren bij een UPS Access Point™ (levering naar-AP)"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:37
+msgid ""
+"UPS delivers the parcel to a UPS Access Point™ that the customer selected, then customer "
+"picks up their order there"
+msgstr ""
+"UPS levert het pakket bij een UPS Access Point™ dat door de klant is geselecteerd, de "
+"klant haalt zijn of haar bestelling daar af"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:38
+msgid "Set as default shipping option"
+msgstr "Instellen als standaard verzendoptie."
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:39
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:48
+msgid "Select the shipping services for your customers to choose"
+msgstr "Selecteer de verzenddiensten waaruit uw klanten kunnen kiezen"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:40
+msgid "International shipping only - visible when shipping address is outside of EU"
+msgstr ""
+"Alleen internationale verzending - zichtbaar als het verzendadres buiten de EU ligt"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:41
+msgid "Access Point display setting"
+msgstr "Weergave-instelling Access Point"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:42
+msgid "Number of Access Points visible to customers"
+msgstr "Aantal Access Points zichtbaar voor klanten"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:43
+msgid "Display all the Access Points in range of"
+msgstr "Geef alle Access Points weer binnen een straal van"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:44
+msgid "kilometer around consignee's selected address"
+msgstr "kilometer rond het door de ontvanger geselecteerde adres"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:45
+msgid "Choose Account Number for this option "
+msgstr "Kies Accountnummer voor deze optie "
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:46
+msgid "Deliver to consignee address (to-address delivery)"
+msgstr "Leveren naar het adres van de ontvanger (levering naar-adres)"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:47
+msgid "UPS delivers the parcel to the shipping address provided by customer."
+msgstr "UPS levert het pakket naar het verzendadres dat door de klant is opgegeven."
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:49
+msgid "Choose Account Number for this option"
+msgstr "Kies Accountnummer voor deze optie"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:50
+msgid "Cut off time"
+msgstr "Sluitingstijdstip"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:52
+msgid "Default account"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:54
+msgid ""
+"Select the UPS services you want to be visible in the checkout for your e-shoppers. To "
+"learn more about UPS services, refer UPS Tariff/Terms and Conditions of Service on UPS."
+"COM"
+msgstr ""
+"Selecteer de UPS-diensten die u wilt weergeven bij de afrekening voor uw webshopklanten. "
+"Raadpleeg de UPS Tarieven/Voorwaarden en bepalingen voor service op UPS.COM voor meer "
+"informatie over UPS-diensten"
+
+#: src/libsystems/lang/ups-eu-woo-lang-terms-conditions.php:37
+msgid ""
+"I agree to the UPS Technology Agreement and confirm that I've been given enough time to "
+"read it and understand that it contains important terms about my use of UPS "
+"Technologies, like limiting UPS's liability and my agreement on how disputes between UPS "
+"and me will be handled."
+msgstr ""
+"Ik ga akkoord met de UPS Technologieovereenkomst en bevestig dat ik voldoende tijd heb "
+"gekregen om het te lezen en begrijp dat het belangrijke voorwaarden bevat over mijn "
+"gebruik van UPS-technologieën, zoals de beperking van de aansprakelijkheid van UPS en "
+"mijn instemming over hoe geschillen tussen UPS en mij zullen behandeld worden."
+
+#: src/models/ups-eu-woo-model-account.php:61
+msgid "Company is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:62
+msgid "Account number is not valid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:199
+msgid "Title is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:205 src/models/ups-eu-woo-model-account.php:211
+msgid "Fullname is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:218
+msgid "Email is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:224
+msgid "Email is not valid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:241
+msgid "Phone number is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:247
+msgid "Address is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:253
+msgid "Postal code is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:259
+msgid "City is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:271
+msgid "Account name is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:272
+msgid "Account name is not valid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:282 src/models/ups-eu-woo-model-account.php:350
+msgid "Account number is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:293 src/models/ups-eu-woo-model-account.php:361
+msgid "The Account Number existed"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:302
+msgid "Invoice number is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:315
+msgid "Invoice amount is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:322
+msgid "Invoice amount is not valid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:330
+msgid "Currency is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:337
+msgid "Invoice date is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-config.php:121
+msgid "key is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-delivery-rates.php:136
+msgid "service_id is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-delivery-rates.php:143
+#: src/models/ups-eu-woo-model-delivery-rates.php:149
+msgid "min_order_value invalid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-delivery-rates.php:396
+msgid "The minimum thresholds can not be the same"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-license.php:152
+msgid "AccessLicenseText is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-license.php:158
+msgid "Username is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-license.php:164
+msgid "Password is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-options.php:119
+msgid "Viet Nam"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-options.php:170
+msgid "Kg"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-options.php:171
+msgid "Pounds"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-options.php:183
+msgid "Cm"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-options.php:184
+msgid "Inch"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-options.php:196
+msgid "Flat rates"
+msgstr "Vaste tarieven"
+
+#: src/models/ups-eu-woo-model-options.php:197
+msgid "Real time shipping rates"
+msgstr "Realtime verzendtarieven"
+
+#: src/models/ups-eu-woo-model-options.php:225
+msgid "Disable"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:146
+msgid "package name is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:153
+msgid "weight is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:160
+msgid "length is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:167
+msgid "width is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:174
+msgid "height is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:186
+#: src/models/ups-eu-woo-model-package-default.php:238
+msgid "package name value invalid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:193
+msgid "weight value invalid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:200
+msgid "length value invalid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:207
+msgid "width value invalid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:214
+msgid "height value invalid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:242
+msgid "The name Package is exist."
+msgstr "De naam Pakket bestaat al."
+
+#: src/models/ups-eu-woo-model-services.php:140
+msgid "country_code is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-services.php:147
+msgid "service_type is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-services.php:154
+msgid "service_key is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-tracking.php:137
+msgid "tracking_number is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-tracking.php:144
+msgid "shipment_number is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-tracking.php:151
+msgid "status is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-tracking.php:158
+msgid "order_id is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-tracking.php:165
+msgid "package_detail is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:603
+msgid "Delivered by End of Business Day"
+msgstr "Geleverd voor einde werkdag"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:607
+msgid "Delivered by"
+msgstr "Afgeleverd in"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:755
+msgid "Open 24 hours"
+msgstr "24 uur geopend"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:975
+msgid "Monday"
+msgstr "Maandag"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:976
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:977
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:978
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:979
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:980
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:981
+msgid "Sunday"
+msgstr "Zondag"
+
+#: src/setting_shipping/ups-eu-woo-ups-eu-shipping.php:19
+msgid "Description about admin of [UPS Shipping]"
+msgstr ""
+
+#: src/setting_shipping/ups-eu-woo-ups-eu-shipping.php:81
+msgid "Description about frontend [ups eu shipping]."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "UPS Shipping and UPS Access Point™ : Official Plugin"
+msgstr "UPS Shipping en UPS Access Point™: officiële invoegtoepassing"
+
+#. Description of the plugin/theme
+msgid ""
+"This module allows you to easily integrate UPS services into your store with a range of "
+"guaranteed delivery services (including deliveries to UPS Access Points™) to meet your "
+"customers' need for speed and budget."
+msgstr ""
+"Deze module biedt u de mogelijkheid om UPS-services makkelijk te integreren in uw "
+"winkel, met een reeks services voor gegarandeerde aflevering (met inbegrip van "
+"aflevering in UPS Access Points™) om te voldoen aan de behoefte aan snelheid en budget "
+"van uw klanten."
+
+#. Author of the plugin/theme
+msgid "UPS"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "www.ups.com"
+msgstr ""
+
+msgid "For more information visit %s"
+msgstr "Bezoek %s voor meer informatie"
+
+msgid "Compatible with WooCommerce versions 3.2, 3.3"
+msgstr "Compatibel met WooCommerce versies 3.2, 3.3"
+
+msgid ""
+"For assistance with installing, upgrading, or using UPS Shipping Module, please contact "
+"UPS at -"
+msgstr ""
+"Neem contact op met UPS over het installeren, upgraden of gebruiken van de UPS Shipping-"
+"module in -"
+
+msgid "Poland +48 (0) 22 203 03 21"
+msgstr "Nederland +31 (0)20 5040 500"
+
+msgid "Minor bug fixes"
+msgstr "De knop Logboek downloaden toegevoegd en een kleine bug verholpen."
+
+msgid ""
+"The cut off time selected here will be used in calculating the schedule delivery date "
+"and time, which will be displayed on your website checkout."
+msgstr ""
+"Het sluitingstijdstip dat hier is geselecteerd, wordt gebruikt bij het berekenen van de "
+"geplande leverdatum en het tijdstip die worden weergegeven op de afrekenpagina van uw "
+"webshop."
+
+msgid ""
+"For example, if the cut off time is selected as 5 PM and your e-shoppers views your "
+"webstore at 5.01 PM, all UPS scheduled delivery dates and time will be calculated from "
+"the following business day. When deciding this cut off time, please ensure that you have "
+"sufficient time to fulfill the order before the UPS scheduled pick up or you are able to "
+"drop off the packages at a UPS Access Point™."
+msgstr ""
+"Als het sluitingstijdstip bijvoorbeeld is ingesteld op 17:00 uur en uw klant bekijkt uw "
+"webshop om 17:01 uur, worden alle leverdatums en -tijdstippen van UPS berekend vanaf de "
+"volgende werkdag. Zorg er bij het kiezen van dit sluitingstijdstip voor dat u voldoende "
+"tijd overhoudt om de bestelling af te handelen vóór het geplande ophaaltijdstip van UPS, "
+"of om de pakketten op tijd bij een UPS Access Point™ af te leveren."
+
+msgid ""
+"If you are unsure about fulfilling customer orders on the same day, you can select "
+"\"Disable\" which will result in the e-shopper seeing a generic delivery schedule for "
+"each available UPS service. For Example; \"UPS® Standard - In most cases, delivered "
+"within 1 to 3 business days in Europe.\""
+msgstr ""
+"Als u niet zeker weet of u alle bestellingen op dezelfde dag kunt afhandelen, kunt u "
+"'Uitschakelen' selecteren. Hierdoor wordt een algemeen leveringsschema voor elke "
+"beschikbare UPS-dienst op de webshop weergegeven. Bijvoorbeeld 'UPS® Standard - Levering "
+"in de meeste gevallen binnen 1 tot 3 werkdagen in Europa.'"
+
+msgid "Support information"
+msgstr "Informatie over ondersteuning"
+
+msgid "January"
+msgstr "Januari"
+
+msgid "February"
+msgstr "Februari"
+
+msgid "March"
+msgstr "Maart"
+
+msgid "April"
+msgstr "April"
+
+msgid "May"
+msgstr "Mei"
+
+msgid "June"
+msgstr "Juni"
+
+msgid "July"
+msgstr "Juli"
+
+msgid "August"
+msgstr "Augustus"
+
+msgid "September"
+msgstr "September"
+
+msgid "October"
+msgstr "Oktober"
+
+msgid "November"
+msgstr "November"
+
+msgid "December"
+msgstr "December"
+
+msgid "Germany"
+msgstr "Duitsland"
+
+msgid "Spain"
+msgstr "Spanje"
+
+msgid "Italy"
+msgstr "Italië"
+
+msgid "Netherlands"
+msgstr "Nederland"
+
+msgid "France"
+msgstr "Frankrijk"
+
+msgid "Error! Maximum allowable per package weight is 70.00 kgs or 154.32 lbs."
+msgstr "Fout! Het maximale toegestane gewicht per pakket is 70,00 kg of 154,32 lbs."
+
+msgid ""
+"Warning! Maximum allowable per package weight for shipments created for UPS Access "
+"Points is 20.00 kgs or 44.09 lbs."
+msgstr ""
+"Waarschuwing! Het maximale toegestane gewicht per pakket voor zendingen die worden "
+"aangemaakt voor UPS Access Points is 20,00 kg of 44,09 lbs."
+
+msgid ""
+"Error! Package exceeds the maximum allowable size of 400 cm or 157.48 inches (the "
+"maximum allowable size calculation = length + 2 * width + 2 * height)."
+msgstr ""
+"Fout! Het pakket overschrijdt de maximale toegestane afmetingen van 400 cm of 157,48 "
+"inch (de berekening voor de maximale toegestane afmetingen = lengte + 2 * breedte + 2 * "
+"hoogte)."
+
+msgid "Un-Archived Orders"
+msgstr "Dearchiveer Bestellingen"
+
+msgid ""
+"Warning! Un-Archiving orders will move your orders to Open Orders tab. Click 'OK' to "
+"continue, 'Cancel' to go back to the screen."
+msgstr ""
+"Waarschuwing! 'Archivering bestellingen ongedaan maken' zal uw bestellingen "
+"terugplaatsen op het tabblad 'Openstaande bestellingen'. Klik op 'OK' om door te gaan of "
+"op 'Annuleren' om terug te keren naar het scherm."
+
+msgid ""
+"NOTE: If you have an existing UPS account number, please use the exact registered pickup "
+"address (which might be different from your invoice billing address) associated with "
+"this account number. Please note that the format of the postal code or zip code should "
+"exactly match the one provided in the registered pickup address."
+msgstr ""
+"OPMERKING: als u een bestaand UPS-klantennummer hebt, gebruik dan het precieze "
+"geregistreerde afhaaladres (dit adres kan verschillen van uw factuuradres) dat aan dit "
+"klantennummer gekoppeld is. Houd er rekening mee dat de opmaak van de postcode precies "
+"moet overeenstemmen met de postcode van het geregistreerde afhaaladres."
+
+msgid ""
+"Use registered pickup address. If you have any difficulties understanding which address "
+"to use, please contact your local UPS sales representative or call the support phone "
+"number provided on the “About” page"
+msgstr ""
+"Gebruik geregistreerd afhaaladres. Als u niet begrijpt welk adres u moet gebruiken, kunt "
+"u contact opnemen met uw lokale UPS-verkoopmedewerker of bellen naar het telefoonnummer "
+"voor ondersteuning op de pagina 'Meer informatie'"
+
+msgid ""
+"The format of the postal code should exactly match the one provided in the registered "
+"pickup address. If you have any difficulties understanding which address to use, please "
+"contact your local UPS sales representative or call the support phone number provided on "
+"the “About” page"
+msgstr ""
+"De opmaak van de postcode moet precies overeenstemmen met de postcode van het "
+"geregistreerde afhaaladres. Als u niet begrijpt welk adres u moet gebruiken, kunt u "
+"contact opnemen met uw lokale UPS-verkoopmedewerker of bellen naar het telefoonnummer "
+"voor ondersteuning op de pagina 'Meer informatie'"
+
+msgid "Pickup Address"
+msgstr "Afhaaladres"
+
+msgid "Pickup Postal Code"
+msgstr "Postcode van het afhaaladres"
+
+msgid ""
+"Warning! Maximum allowable per package size for shipments created for UPS Access Points "
+"is 330 cm or 129.92 inches (the maximum allowable size calculation = length + 2 * width "
+"+ 2 * height)."
+msgstr ""
+"Waarschuwing! De maximale toegestane afmetingen per pakket voor zendingen die worden "
+"aangemaakt voor UPS Access Points is 330 cm or 129,92 inch (de berekening voor de "
+"maximale toegestane afmetingen = lengte + 2 * breedte + 2 * hoogte)."
+
+msgid "Un-Archiving Orders"
+msgstr "Archivering bestellingen ongedaan maken"
+
+msgid "Warning"
+msgstr "Waarschuwing"
+
+msgid "Belgium"
+msgstr "België"
+
+msgid "Accessorial service note"
+msgstr ""
+"*Select “Edit” and add applicable accessorial services for a more accurate shipping "
+"estimate NL"
+
+msgid "Username"
+msgstr "gebruikersnaam"
+
+msgid "Password"
+msgstr "Wachtwoord"
+
+msgid "UPS login username"
+msgstr "Gebruikersnaam voor aanmelding bij UPS"
+
+msgid "UPS login password"
+msgstr "UPS-inlogwachtwoord"
+
+msgid "Choose packing algorithm"
+msgstr "Kies verpakkingsalgoritme"
+
+msgid "Package weight unit"
+msgstr "Gewichtseenheid pakket"
+
+msgid "Package dimension unit"
+msgstr "Pakketafmetingseenheid:"
+
+msgid "Maximum weight per pack"
+msgstr "Maximaal gewicht per pak"
+
+msgid "Set Access Point address as Ship to address"
+msgstr "Adres van toegangspunt instellen als Verzendadres"
+
+msgid "Number of items in the order determine the package size"
+msgstr "Aantal items in de bestelling bepalen de pakketgrootte"
+
+msgid "Weights and dimensions of the products in the order determine the package size"
+msgstr "Gewichten en afmetingen van de producten in de bestelling bepalen de pakketgrootte"
+
+msgid "Select your access point using location search before proceeding"
+msgstr "Selecteer uw toegangspunt met behulp van locatie zoeken voordat u verder gaat"

@@ -1,0 +1,2330 @@
+# Copyright (C) 2019 UPS Shipping and UPS Access Point™ : Official Plugin
+# This file is distributed under the same license as the UPS Shipping and UPS Access Point™ : Official Plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: UPS Shipping and UPS Access Point™ : Official Plugin 1.0.2.8\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/ups-eu-woocommerce\n"
+"POT-Creation-Date: 2019-03-29 04:18:55+00:00\n"
+"PO-Revision-Date: 2023-03-16 11:10+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: src/config/ups-eu-woo-router-config.php:30
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:45
+msgid "About"
+msgstr "Opis"
+
+#: src/config/ups-eu-woo-router-config.php:50
+msgid "Configuration"
+msgstr "Konfiguracja"
+
+#: src/config/ups-eu-woo-router-config.php:66
+#: src/libsystems/lang/ups-eu-woo-lang-accessorial-services.php:36
+#: src/libsystems/lang/ups-eu-woo-lang-country.php:36
+msgid "Country Setting"
+msgstr "Ustawienie kraju"
+
+#: src/config/ups-eu-woo-router-config.php:86
+#: src/libsystems/lang/ups-eu-woo-lang-terms-conditions.php:36
+msgid "UPS Terms and Conditions"
+msgstr "Warunki korzystania z usług UPS"
+
+#: src/config/ups-eu-woo-router-config.php:106
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:38
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:53
+msgid "Account"
+msgstr "Konto"
+
+#: src/config/ups-eu-woo-router-config.php:126
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:39
+msgid "Shipping Services"
+msgstr "Usługa przewozowa"
+
+#: src/config/ups-eu-woo-router-config.php:146
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:34
+msgid "Collect on Delivery (COD)"
+msgstr "Przesyłka za pobraniem"
+
+#: src/config/ups-eu-woo-router-config.php:178
+msgid "Package Dimensions"
+msgstr "Wymiary opakowania"
+
+#: src/config/ups-eu-woo-router-config.php:198
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:43
+msgid "Checkout Shipping Rates"
+msgstr "Ceny za przesyłki wyświetlane w Koszyku"
+
+#: src/config/ups-eu-woo-router-config.php:218
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:44
+msgid "Complete Configuration"
+msgstr "Kompletna konfiguracja"
+
+#: src/config/ups-eu-woo-router-config.php:238
+msgid "Shipment management"
+msgstr "Zarządzanie przesyłkami"
+
+#: src/config/ups-eu-woo-router-config.php:254
+msgid "Shipment Manager"
+msgstr "Menedżer przesyłek"
+
+#: src/config/ups-eu-woo-router-config.php:276
+msgid "none_account"
+msgstr ""
+
+#: src/config/ups-eu-woo-router-config.php:314
+#: src/config/ups-eu-woo-router-config.php:318
+msgid "ExportCSV"
+msgstr ""
+
+#: src/controllers/admin/ups-eu-woo-config-shipping-service.php:266
+msgid "Please select at least one shipping service."
+msgstr "Wybierz co najmniej jedną usługę wysyłkową."
+
+#: src/controllers/admin/ups-eu-woo-config-terms-condition.php:79
+msgid "Connection error, try later to install and configure"
+msgstr "Błąd połączenia, spróbuj później, aby zainstalować i skonfigurować"
+
+#: src/controllers/admin/ups-eu-woo-controller.php:122
+#: src/controllers/admin/ups-eu-woo-config-merchantcf.php:79
+msgid "UPS Shipping"
+msgstr "WYSYŁKA UPS"
+
+#: src/controllers/admin/ups-eu-woo-config-merchantcf.php:78
+msgid "You do not have permission access the page this"
+msgstr ""
+
+#: src/libsystems/ajax_json/ups-eu-woo-ajax-json-global.php:10
+msgid "Package: Some of the data you entered were not valid. Please check again."
+msgstr ""
+"Paczka: Niektóre z wprowadzonych danych były nieprawidłowe. Prosze sprawdź ponownie."
+
+#: src/libsystems/ajax_json/ups-eu-woo-ajax-json-shipbase.php:116
+msgid "The name is not empty"
+msgstr "Nazwa nie może być pusta"
+
+#: src/libsystems/ajax_json/ups-eu-woo-ajax-json-shipbase.php:119
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:52
+msgid "The address is required"
+msgstr "Adres jest wymagany"
+
+#: src/libsystems/ajax_json/ups-eu-woo-ajax-json-shipbase.php:122
+msgid "The postal code is empty or invalid"
+msgstr "Kod pocztowy jest pusty lub nieprawidłowy"
+
+#: src/libsystems/ajax_json/ups-eu-woo-ajax-json-shipbase.php:125
+msgid "The city is not empty"
+msgstr "Miasto nie może być puste"
+
+#: src/libsystems/ajax_json/ups-eu-woo-ajax-json-shipbase.php:128
+msgid "The phone is not empty"
+msgstr "Numer telefonu nie może być pusty"
+
+#: src/libsystems/ajax_json/ups-eu-woo-ajax-json-shipbase.php:131
+msgid "The email is not empty"
+msgstr "Die E-Mail-Adresse ist nicht leer"
+
+#: src/libsystems/api_ups/ups-eu-woo-call-api-ups-configurations.php:190
+msgid ""
+". Please update the city and postal code values with one of these selections and "
+"click Get Started”"
+msgstr ""
+". Proszę powtórnie wprowadzić miasto oraz kod pocztowy w jednym z tych formatów i "
+"nacisnąć przycisk Rozpocznij”"
+
+#: src/libsystems/api_ups/ups-eu-woo-call-api-ups-configurations.php:197
+msgid ""
+"Your request to create a UPS Shipping Account was not successful. Please check the "
+"‘City’ and ‘Postal code’ values that you entered. Here are some suggestions on the "
+"City and Postal code that"
+msgstr ""
+
+#: src/libsystems/api_ups/ups-eu-woo-call-api-ups-configurations.php:225
+msgid ""
+"Your request to create a UPS Shipping Account was not successful. Please check the "
+"‘City’ and ‘Postal code’ values that you entered. Here are some suggestions on the "
+"City and Postal code that are a valid combination - "
+msgstr ""
+"Próba utworzenia konta wysyłkowego UPS nie powiodła się. Należy sprawdzić dane "
+"wprowadzone w polach „Miasto” i „Kod pocztowy”. Oto akceptowane formaty : "
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:37
+msgid "ID"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:38
+msgid "method"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:39
+msgid "Full url"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:40
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:42
+msgid "Response"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:41
+msgid "Request"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:43
+msgid "Time Request"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:44
+msgid "Time Response"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:46
+msgid "Module version number and release date"
+msgstr "Numer wersji i data wydania modułu"
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:47
+msgid "Module version v2.2.6"
+msgstr "Wersja modułu: v%s"
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:48
+msgid "Release date October 20, 2021"
+msgstr "Data wydania: dd mm yy r."
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:49
+msgid "Changelog"
+msgstr "Dziennik zmian"
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:50
+msgid "Platform compatibility statement"
+msgstr "Oświadczenie dotyczące kompatybilności platformy"
+
+#: src/libsystems/lang/ups-eu-woo-lang-about-logs-api.php:51
+msgid "UPS Shipping Module website"
+msgstr "Strona internetowa Modułu wysyłki UPS"
+
+#: src/libsystems/lang/ups-eu-woo-lang-accessorial-services.php:37
+msgid ""
+"You can select among the option you chose here when you chedule UPS pickups. Select "
+"the accessorial service best describe your package would eleminate the change being "
+"charged for wrong shipping information. Don't worry, you can select among your "
+"chosen services before creating a shipment."
+msgstr ""
+"Możesz wybrać jedną z opcji, które zdefiniowałeś, tworząc przesyłke dla UPS. "
+"Zaznacz usługi dodatkowe, które najlepiej opisują Twoją paczkę, by uniknąć ryzyka, "
+"że niewłaściwe informacje spowodują naliczenie dodatkowych opłat. Nie martw się, "
+"możesz zmienić wybór tworząc każdą przesyłkę."
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:36
+msgid "Your UPS Profile"
+msgstr "Twój profil UPS"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:37
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:36
+msgid ""
+"Please fill the form below to start configuring UPS plug-in for your e-commerce "
+"website"
+msgstr ""
+"Proszę wypełnić poniższy formularz, aby rozpocząć konfigurację wtyczki UPS dla "
+"witryny e-commerce"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:38
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:52
+msgid "Invoice number"
+msgstr "Numer faktury"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:39
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:53
+msgid "Invoice amount"
+msgstr "Kwota faktury"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:40
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:60
+msgid ""
+"Reference name that will be associate with an account. For example warehouse 1, "
+"warehouse 2,  Store 1, Store 2 etc. You can freely chose the name as per your "
+"requirement."
+msgstr ""
+"Nazwa referencyjna, która będzie powiązana z kontem. Na przykład: magazyn 1, "
+"magazyn 2, Sklep 1, Sklep 2, itp. Możesz dowolnie wybrać nazwę wg swoich potrzeb."
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:41
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:62
+msgid ""
+"The name associated with your UPS account. It can be found on the top on each page "
+"of your UPS invoice under 'Purchaser'"
+msgstr ""
+"Nazwa powiązana z Twoim kontem UPS. Możesz ją znaleźć na górze każdej strony Twojej "
+"faktury od UPS w polu 'Nabywca'"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:42
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:61
+msgid ""
+"The postal code or zip code associated with your UPS account. It can be found on "
+"the top on each page of your UPS invoice under 'Purchaser'"
+msgstr ""
+"Kod pocztowy powiązany z Twoim kontem UPS. Możesz go znaleźć na górze każdej strony "
+"Twojej faktury od UPS w polu 'Nabywca'."
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:43
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:63
+msgid ""
+"A unique six character alphanumeric number that identifies your account. It can be "
+"found on the top left side on each page of your UPS invoice"
+msgstr ""
+"Unikalny sześciocyfrowy alfanumeryczny numer identyfikujący twoje konto. Można go "
+"znaleźć w prawym górnym rogu każdej strony faktury UPS"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:44
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:64
+msgid ""
+"A unique 12 digit number assigned by UPS to an invoice. It can be found on the top "
+"left side on each page of your UPS invoice"
+msgstr ""
+"Unikalny 12-cyfrowy numer przypisany przez UPS do faktury. Można go znaleźć w "
+"prawym górnym rogu każdej strony faktury UPS"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:45
+msgid ""
+"Total Amount Due for the given invoice. It can be found on the 'Summary of Charges' "
+"table on the first page on the invoice\t\t\t\t\t\t"
+msgstr ""
+"Łączna kwota należna za daną fakturę. Można ją znaleźć w tabeli 'Podsumowanie "
+"opłat' na pierwszej stronie faktury\t\t\t\t\t\t"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:46
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:66
+msgid ""
+"Date of issuing the invoice. It can be found on the top left side on each page of "
+"your UPS invoice"
+msgstr ""
+"Data wystawienia faktury. Można ją znaleźć w prawym górnym rogu każdej strony "
+"faktury UPS"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:48
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:43
+msgid "Company"
+msgstr "Firma"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:49
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:49
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:66
+msgid "City"
+msgstr "Miasto"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:50
+msgid "Default Account"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:51
+msgid "Your Payment Account"
+msgstr "Twoje konto płatności"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:52
+msgid "Add another account number"
+msgstr "Dodaj kolejny numer konta"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:53
+msgid "Please enter the address attached to your account number"
+msgstr "Proszę podać adres przypisany do numeru rachunku"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:54
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:44
+msgid "Address type"
+msgstr "Typ adresu"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:55
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:45
+msgid "Example: Warehouse, Branch #1"
+msgstr "Przyklad: magazyn,oddzial nr 1 itd."
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:56
+msgid "Your business name"
+msgstr "Twoja nazwa firmy"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:57
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:46
+msgid "Street Address"
+msgstr "Ulica"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:58
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:47
+msgid "Apartment, Suite, Unit, Building, Floor, etc."
+msgstr "Apartament, Mieszkanie, Jednostka, Budynek, Piętro itp."
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:59
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:48
+msgid "Department, c/o, etc."
+msgstr "Departament, c / o itp."
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:60
+msgid "Phone"
+msgstr "Telefon"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:61
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:50
+msgid ""
+"I have a UPS Account Number WITH an invoice occurred in the last 45 days (90 days "
+"if your account is in the US or Canada)"
+msgstr ""
+"Mam numer klienta UPS z fakturą wystawioną w ciągu ostatnich 45 dni (90 dni, jeśli "
+"Twoje konto znajduje się w USA lub Kanadzie)"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:62
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:51
+msgid ""
+"The invoice should be 1 of the last 3 issued by UPS in last 45 days (90 days if "
+"your account is in the US or Canada)"
+msgstr ""
+"Faktura powinna być jedną z trzech ostatnich wystawionych przez UPS w ciągu 45 dni "
+"(90 dni, jeśli Twoje konto znajduje się w USA lub Kanadzie)"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:63
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:54
+msgid "Invoice date"
+msgstr "Data faktury"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:64
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:55
+msgid ""
+"I have a UPS Account Number WITHOUT an invoice occurred in the last 45 days (90 "
+"days if your account is in the US or Canada)"
+msgstr ""
+"Mam numer klienta UPS bez wystawionej faktury za ostatnie 45 dni (90 dni, jeśli "
+"Twoje konto znajduje się w USA lub Kanadzie)"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:65
+msgid "Verify"
+msgstr "Zweryfikuj"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:66
+msgid "Remove"
+msgstr "Usuń"
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:67
+msgid "This account will be removed. Click Ok to confirm, close the dialog to cancel."
+msgstr ""
+"To konto zostanie usunięte. Kliknik OK by potwierdzić, zamknij okno by anulować."
+
+#: src/libsystems/lang/ups-eu-woo-lang-account.php:68
+msgid "Remove Account"
+msgstr "Usuń konto"
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:36
+msgid "You can start shipping now!"
+msgstr "Można już rozpocząć tworzenie przesyłek!"
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:37
+msgid ""
+"Click on the \"Complete Configuration\" button to finish the configuration of the "
+"plug-in and start offering UPS shipping services on your website."
+msgstr ""
+"Użyj przycisku ’Zakończ konfigurację’ aby zamknąć proces; możesz już oferować "
+"usługi UPS na swojej stronie."
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:38
+msgid ""
+"If you are new to UPS, please refer to the following FAQs for additional "
+"information -"
+msgstr ""
+"Nie współpracowałeś jeszcze z UPS? Zapoznaj się z odpowiedziami na najczęściej "
+"zadawane pytania –"
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:39
+msgid ""
+"1. How do I get more information about my new UPS shipping account?<br>If you "
+"opened a new UPS shipping account from the plug-in, a confirmation email with more "
+"information will be sent to the email address that you entered while creating the "
+"new account.<br><br>2. How do I prepare my packages for UPS collection or drop off "
+"to a UPS Access Point™?<br>Refer to the package preparation recommendations at this "
+"link - <a target='_blank' href='%s'>%s</a><br><br>3. How do I give my packages to "
+"UPS?<br>You can drop you packages at any authorized UPS location such as a UPS "
+"Access Point™. Click below to search for a convenient access point location near "
+"you."
+msgstr ""
+"1. Jak mogę otrzymać więcej informacji dotyczących mojego nowo założonego konta UPS?"
+"<br>Jeśli utworzyłeś konto wysyłkowe UPS korzystając z wtyczki, na podany w trakcie "
+"rejestracji e-mail otrzymasz dodatkowe informacje oraz potwierdzenie utworzenia "
+"konta<br><br>2. Jak powinienem przygotować paczki dla kuriera lub do nadania w UPS "
+"Access Point™?<br>Skorzystaj z informacji przedstawionych tutaj:  <a "
+"target='_blank' href='%s'>%s<a><br><br>3. Jak mam przekazać UPS moje paczki?"
+"<br>Możesz przynieść przesyłki do wybranego, autoryzowanego punktu UPS – np. do "
+"sieci Access Point. Sprawdź, gdzie znajduje się najbliższy punkt."
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:40
+msgid "Search Access Point™"
+msgstr "Wyszukaj UPS Access Point"
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:41
+msgid "REGULAR PICKUP AND COD REGISTRATION"
+msgstr "UMOWA NA STAŁY ODBIÓR PACZEK LUB KORZYSTANIE Z USŁUGI COD"
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:42
+msgid ""
+"You can also ask UPS to pickup packages from your warehouse or business address. If "
+"you need an occasional pickup, you can directly schedule a pickup from UPS.COM "
+"using this link - <a target='_blank' href='%s'>%s</a><br><br> If you have UPS "
+"packages on most business days and would prefer a regular UPS pickup, you can "
+"contact UPS by calling at the phone number provided under Billing Questions <a "
+"target='_blank' href='%s'>here</a>. Then a UPS representative will be in touch with "
+"you to discuss a daily UPS pickup."
+msgstr ""
+"Możesz zaplanować odbiór przez kuriera UPS. Jeśli Twoje nadania nie są regularne – "
+"skorzystaj z poniższego linku: <a target='_blank' href='%s'>%s</a><br><br>Jeśli "
+"wysyłasz przesyłki UPS kilka razy w ciągu tygodna i wolisz ustalić stały czas "
+"podjazdu kuriera UPS, skontaktuj się z nami dzwoniąc pod numer telefonu podany w "
+"sekcji <a target='_blank' href='%s'>Centrum Rozliczeniowe Pytania</a>. "
+"Przedstawiciel UPS skontaktuje się z Tobą w celu omówienia regularnych  odbiorów "
+"przesyłek."
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:43
+msgid "Download COD and Pickup Registration form"
+msgstr "Pobieranie formularz rejestracyjny COD i odbioru"
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:44
+msgid "SCHEDULE A PICKUP"
+msgstr "ZAPLANUJ ODBIÓR"
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:45
+msgid ""
+"If you do not ship on a daily base, please go to ups.com to schedule a pick-up."
+msgstr ""
+"Jeśli nie potrzebujesz regularnych podjazdów, przejdź na stronę ups.com i zaplanuj "
+"odbiór."
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:46
+msgid "MANAGE MY PAYMENT OPTIONS"
+msgstr "ZARZĄDZAJ MOIMI OPCJAMI PŁATNOŚCI"
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:47
+msgid ""
+"If you want to change your payment methods or enroll for other billing tools, "
+"please go to ups.com."
+msgstr ""
+"Jeśli chcesz zmienić metody płatności lub aktywować inne narzędzia rozliczeniowe, "
+"przejdź na stronę ups.com."
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:48
+msgid "Local tax(es) is included in the shipping fee"
+msgstr "Podatek VAT wliczony w oplate transportowa"
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:49
+msgid "REGISTER FOR PREMIUM SERVICE BY UPS"
+msgstr "ZAREJESTRUJ SIE DO PREMIOWYCH USLUG UPS"
+
+#: src/libsystems/lang/ups-eu-woo-lang-billing-preference.php:50
+msgid ""
+"4. What steps do I need to take to set up a UPS Collect on Delivery (COD) service?"
+"<br>You can contact UPS by calling at the phone number provided under Billing "
+"Questions <a target='_blank' href='%s'>here</a>. Then a UPS representative will be "
+"in touch with you to discuss the COD service."
+msgstr ""
+"4. Co muszę zrobić aby uruchomić opcję Przesyłki za Pobraniem (COD)?<br>Możesz "
+"skontaktować się z UPS, dzwoniąc pod numer telefonu podany w sekcji <a "
+"target='_blank' href='%s'>Centrum Rozliczeniowe Pytania</a>. Przedstawiciel UPS "
+"skontaktuje się z Tobą w celu omówienia usługi COD/ doręczenie za pobraniem."
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:36
+msgid "Deliver to an UPS Access Point™"
+msgstr "Dostarcz do punktu UPS Access Point™"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:37
+msgid "Your package will be delivered to an UPS Access Point™"
+msgstr "Twoja paczka zostanie wysłana do punktu UPS Access Point™"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:38
+msgid "Deliver to Your Address"
+msgstr "Dostarcz pod twój adres"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:39
+msgid "Your package will be delivered to your address"
+msgstr "Twoja paczka zostanie wysłana bezpośrednio na twój adres"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:40
+msgid "Search for the Access Point™"
+msgstr "Wyszukaj punkt UPS Access Point™"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:41
+msgid "Please select an UPS Access Point™ to process"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:42
+msgid "Near"
+msgstr "W okolicy"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:43
+msgid "Use my delivery address"
+msgstr "Użyj mojego adresu dostawy"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:44
+msgid "Search"
+msgstr "Wyszukaj"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:45
+msgid "Address line, City, State, Postcode"
+msgstr "Linia adresu, Miasto, Województwo, Kod pocztowy"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:46
+msgid "Results"
+msgstr "Wyniki"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:47
+msgid "Operating Hours"
+msgstr "Godziny otwarcia"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:48
+msgid "Select"
+msgstr "Wybierz"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:49
+msgid "Open"
+msgstr "Otwarcie"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:50
+msgid "Closed"
+msgstr "Zamknięte"
+
+#: src/libsystems/lang/ups-eu-woo-lang-checkout.php:51
+msgid "Please select an Access Point to process"
+msgstr "Wybierz punkt dostępu do przetworzenia"
+
+#: src/libsystems/lang/ups-eu-woo-lang-cod.php:36
+msgid "COD option"
+msgstr "Opcja COD"
+
+#: src/libsystems/lang/ups-eu-woo-lang-cod.php:37
+msgid "On"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-cod.php:38
+msgid "You have the official WooCommerce COD module enabled!"
+msgstr "Masz włączony oficjalny moduł WooCommerce COD!"
+
+#: src/libsystems/lang/ups-eu-woo-lang-cod.php:39
+msgid ""
+"The COD Shipping service of this plug-in is automatically compatible with the "
+"official Collect on Delivery (COD) module by WooCommerce."
+msgstr ""
+"Usługa pobrania należności COD do tej wtyczki jest automatycznie zgodna z "
+"oficjalnym modułem Collect on Delivery od WooCommerce."
+
+#: src/libsystems/lang/ups-eu-woo-lang-cod.php:40
+msgid "You do not have the official WooCommerce COD module installed and/or enabled!"
+msgstr ""
+"Nie masz zainstalowanego i / lub włączonego oficjalnego modułu WooCommerce COD!"
+
+#: src/libsystems/lang/ups-eu-woo-lang-cod.php:41
+msgid ""
+"If you want the UPS Shipping module to automatically detect COD shipments, "
+"<b>please make sure that you have installed WooCommerce's Collect on Delivery "
+"(COD)</b>. If you already have WooCommerce's Collect on Delivery (COD) module "
+"installed, <b>please make sure that the module is enabled</b>. <a target='_blank' "
+"href='https://docs.woocommerce.com/document/cash-on-delivery/'>[Click here]</a> for "
+"detailed guidance."
+msgstr ""
+"Jeśli chcesz, aby moduł UPS Shipping automatycznie wykrywał przesyłki za pobraniem, "
+"<b>upewnij się, że zainstalowałeś oficjalny moduł WooCommerce Collect on Delivery "
+"(COD)</b>. Jeśli masz już zainstalowany moduł WooCommerce Collect On Delivery "
+"(COD), <b>upewnij się, że moduł jest włączony</b>. <a target='_blank' href='https://"
+"docs.woocommerce.com/document/cash-on-delivery/'>[Kliknij tutaj]</a>, aby uzyskać "
+"szczegółowe wskazówki."
+
+#: src/libsystems/lang/ups-eu-woo-lang-cod.php:42
+msgid "Select \"YES\" if you plan to offer COD shipments to a UPS Access Points"
+msgstr ""
+"Wybierz ‘TAK’ jeśli chcesz udostępniać  Przesyłki za Pobraniem odbierane w Access "
+"Point"
+
+#: src/libsystems/lang/ups-eu-woo-lang-cod.php:43
+msgid "Only show Access Points supporting COD shipments?"
+msgstr "Pokazać tylko punkty Access Points obsługujące pobrania?"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:27
+msgid "UPS® Standard"
+msgstr "UPS® Standard"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:28
+msgid "UPS Expedited®"
+msgstr "UPS Expedited®"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:29
+msgid "UPS Express Saver®"
+msgstr " UPS Express Saver®"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:30
+msgid "UPS Express®"
+msgstr "UPS Express®"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:31
+msgid "UPS Express Plus®"
+msgstr "UPS Express Plus®"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:35
+msgid "UPS Shipping Module"
+msgstr "Moduł wysyłki UPS"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:36
+msgid "To AP"
+msgstr "Do AP"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:37
+msgid "To Address"
+msgstr "Zaadresuj"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:40
+msgid "Cash on Delivery (COD)"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:41
+msgid "Accessorial Services"
+msgstr "Usługi dodatkowe"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:42
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:37
+msgid "Default package setting"
+msgstr "Domyślne ustawienia przesyłki"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:54
+msgid "Please select an option"
+msgstr "Proszę wybrać opcję"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:57
+msgid "Basic (number of items in the e-shopper order determine the package size)"
+msgstr "Podstawowa (liczba pozycji w zamówieniu e-shopper określa rozmiar paczki)"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:58
+msgid ""
+"Advanced (weights and dimensions of products in the e-shopper order determine the "
+"package size)"
+msgstr ""
+"Zaawansowana (waga i wymiary produktów w zamówieniu e-shopper określają rozmiar "
+"paczki)"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:66
+msgid "Service Name"
+msgstr "Nazwa usługi"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:67
+msgid "Rate"
+msgstr "Stawka"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:55
+msgid ""
+"Add default packages if you would like the package size used for rating to change "
+"based on the number of items in the e-shopper’s order"
+msgstr ""
+"Dodaj automatyczne paczki, jeśli chcesz, aby użyty do obliczenia stawki rozmiar "
+"paczki zmienił się na podstawie liczby artykułów w zamówieniu klienta sklepu "
+"internetowego"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:56
+msgid ""
+"Note: if the number of items in the e-shopper order do not match any of your "
+"entries, then the size of the package used for rating will be based on that of the "
+"highest item count exceeded by the e-shopper order."
+msgstr ""
+"Uwaga: Jeśli liczba artykułów w zamówieniu klienta nie odpowiada żadnemu wpisowi, "
+"rozmiar paczki, na podstawie którego oblicza się stawkę, będzie się opierał na "
+"przekroczonej liczbie najwyższych elementów w zamówieniu klienta sklepu "
+"internetowego."
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:65
+msgid ""
+"Warning! To use this option you must enter product weights in the product settings "
+"of your shop"
+msgstr ""
+"Ostrzeżenie! Aby skorzystać z tej opcji, należy wprowadzić wagę produktów w "
+"ustawieniach produktu w sklepie"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:61
+msgid ""
+"If set to “No”, rates will be based on product weights only.  If set to “Yes”, "
+"product dimensions must be entered in the product settings of your shop"
+msgstr ""
+"Jeśli ustawisz „Nie”, stawki zostaną obliczone wyłącznie na podstawie wagi "
+"produktu.  Jeśli ustawisz „Tak”, należy wprowadzić rozmiary produktu w ustawieniach "
+"produktu w sklepie"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:64
+msgid ""
+"Backup Rate will only display to e-shoppers if there is an issue within product "
+"settings, such as weights missing or if weights/dimensions exceed UPS limits"
+msgstr ""
+"Stawki awaryjne zostaną wyświetlone klientom sklepu internetowego wyłącznie w "
+"sytuacji, gdy wystąpi problem z ustawieniami produktu, taki jak brak wagi lub gdy "
+"waga/rozmiar przekraczają limity UPS"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:60
+msgid "Include dimensions in rating"
+msgstr "Podczas obliczania stawki weź pod uwagę rozmiary"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:61
+msgid "Backup Rate"
+msgstr "Stawka awaryjna"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:67
+msgid "Number of items in order"
+msgstr "Liczba pozycji w zamówieniu"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:62
+msgid "Add Backup Rate"
+msgstr "Dodaj opłatę za usługę"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:94
+msgid "Maximum Weight"
+msgstr "Maksymalna waga"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:93
+msgid "Package dimensions"
+msgstr "Wymiary paczki"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:91
+msgid "Add new package"
+msgstr "Dodaj nową paczkę"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:92
+msgid ""
+"Note: the plugin will create a custom package size if an e-shopper order is larger "
+"than the packages you enter"
+msgstr ""
+"Uwaga: wtyczka utworzy niestandardowy rozmiar paczki, jeśli zamówienie e-shopper "
+"jest większe niż wprowadzone paczki"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:45
+msgid "Ok"
+msgstr "Ok"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:46
+msgid "Close"
+msgstr "Zamknięcie"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:47
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:48
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:77
+msgid "Edit"
+msgstr "Edytuj"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:49
+msgid "Delete"
+msgstr "Kasuj"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:50
+msgid "Save"
+msgstr "Zapisz"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:51
+msgid "Next"
+msgstr "Następny"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:52
+msgid "Continue"
+msgstr "Dalej"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:53
+msgid "Print"
+msgstr "Wydrukuj"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:54
+msgid "Weight"
+msgstr "Waga"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:55
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:57
+msgid "Unit"
+msgstr "Jednostka"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:56
+msgid "Dimension"
+msgstr "Wymiar"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:58
+msgid "Length"
+msgstr "Długość"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:59
+msgid "Width"
+msgstr "Szerokość"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:60
+msgid "Height"
+msgstr "Wysokość"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:61
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:45
+msgid "min = 0.01 max = 9999.99"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:62
+msgid "minlength = 1 maxlength = 50"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:63
+msgid "Data saved successfull"
+msgstr "Dane zostały pomyślnie zapisane."
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:64
+msgid "Print form"
+msgstr "Wydrukuj dokument"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:65
+msgid "Some of the data you entered were not valid. Please check again."
+msgstr "Niektóre z wprowadzonych danych były nieprawidłowe. Prosze sprawdź ponownie."
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:66
+msgid "Yes"
+msgstr "Tak"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:67
+msgid "No"
+msgstr "Nie"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:68
+msgid "Account number already exists in 'Your Payment Account'"
+msgstr "Już istnieje numer konta dla 'Twoje konto płatności'"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:69
+msgid "Additional Handling"
+msgstr "Dodatkowa obsługa"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:70
+msgid "Quantum View Ship Notification"
+msgstr "Powiadomienie o nadaniu Quantum View"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:71
+msgid "Quantum View Delivery Notification"
+msgstr "Powiadomienie o doręczeniu Quantum View"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:72
+msgid "Residential Address"
+msgstr "Adres prywatny"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:73
+msgid "Saturday Delivery"
+msgstr "Dostawa w sobotę"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:74
+msgid "Carbon Neutral"
+msgstr "Carbon Neutral"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:75
+msgid "Direct Delivery Only"
+msgstr "Doręczenie wyłącznie pod wskazany adres"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:76
+msgid "Declared value"
+msgstr "Zadeklarowana wartość"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:77
+msgid "Signature Required"
+msgstr "Wymagany podpis"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:78
+msgid "Adult Signature Required"
+msgstr "Wymagany podpis osoby dorosłej"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:79
+msgid "To Access Point COD"
+msgstr "Do punktu Access Point z usługą COD"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:80
+msgid "To Home COD"
+msgstr "Do domu z usługą COD"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:81
+msgid "UPS Access Point Economy"
+msgstr "UPS Access Point™ Economy"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:102
+msgid "Billing Preference"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:103
+msgid "We couldn't find any records"
+msgstr "Nie znaleźliśmy żadnych rekordów"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:104
+msgid "COD"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:105
+msgid "Delivery Address"
+msgstr "Adres dostawy"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:106
+msgid "Order ID"
+msgstr "Identyfikator zamówienia"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:107
+msgid "Country/Territory"
+msgstr "Kraj/Terytorium"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:108
+msgid "Email"
+msgstr "E-mail"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:109
+msgid "Phone number"
+msgstr "Numer telefonu"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:110
+msgid "Address"
+msgstr "Adres"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:111
+msgid "Postal code"
+msgstr "Kod pocztowy"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:112
+msgid "Account name"
+msgstr "Nazwa Konta"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:113
+msgid "Account number"
+msgstr "Numer klienta"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:114
+msgid "Currency"
+msgstr "Waluta"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:115
+msgid "Open Orders"
+msgstr "Otwarte zlecenia"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:116
+msgid "Shipments"
+msgstr "Przesyłki"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:117
+msgid "Archived Orders"
+msgstr "Zarchiwizowane zamówienia"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:118
+msgid "Order Date"
+msgstr "Data zamówienia"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:119
+msgid "Order Time"
+msgstr "Czas zamówienia"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:120
+msgid "Product"
+msgstr "Produkt"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:121
+msgid "Shipping Service"
+msgstr "Usługa przewozowa"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:122
+msgid "Customer Address line 1"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:123
+msgid "Customer Address line 2"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:124
+msgid "Customer Address line 3"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:125
+msgid "Customer PostalCode"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:126
+msgid "Customer City"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:127
+msgid "Customer StateOrProvince"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:128
+msgid "Customer Country"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:129
+msgid "Customer Email"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:130
+msgid "AlternateDeliveryAddressIndicator"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:131
+msgid "UPSAccessPointID"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:132
+msgid "Access Point Address line 1"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:133
+msgid "Access Point Address line 2"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:134
+msgid "Access Point Address line 3"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:135
+msgid "Access Point City"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:136
+msgid "Access Point StateOrProvince"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:137
+msgid "Access Point PostalCode"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:138
+msgid "Access Point Country"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:139
+msgid "Shipping service"
+msgstr "Usługa przewozowa"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:140
+msgid ""
+"For more information on UPS Plugins please click <a target='_blank' href='%s'>this "
+"link</a> (opens in a new browser window)"
+msgstr ""
+"Więcej informacjo o wtyczce UPS dostępne <a target='_blank' href='%s'>tutaj</a> "
+"(otworzy się nowe okno przeglądarki)"
+
+#: src/libsystems/lang/ups-eu-woo-lang-common.php:141
+msgid "There are errors connecting to the UPS API servers. Please try again."
+msgstr ""
+"Wystąpiły błędy podczas łączenia się z serwerami API UPS. Proszę spróbuj ponownie."
+
+#: src/libsystems/lang/ups-eu-woo-lang-country.php:37
+msgid "Please select your country/territory"
+msgstr "Proszę wybrać swój kraj/terytorium"
+
+#: src/libsystems/lang/ups-eu-woo-lang-country.php:38
+#: src/models/ups-eu-woo-model-options.php:84
+#: src/models/ups-eu-woo-model-options.php:107
+msgid "Poland"
+msgstr "Polska"
+
+#: src/libsystems/lang/ups-eu-woo-lang-country.php:39
+#: src/models/ups-eu-woo-model-options.php:90
+#: src/models/ups-eu-woo-model-options.php:113
+msgid "United Kingdom"
+msgstr "Wielka Brytania"
+
+#: src/libsystems/lang/ups-eu-woo-lang-country.php:40
+#: src/models/ups-eu-woo-model-options.php:91
+#: src/models/ups-eu-woo-model-options.php:114
+msgid "United States"
+msgstr "Stany Zjednoczone"
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:36
+msgid "Ship to UPS Access Point™"
+msgstr "Wyslij do punktu UPS Access Point™"
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:37
+msgid ""
+"The e-shopper will see the % of real time UPS rates. These rates are calculated "
+"using the default package weight and dimensions that you configured in the previous "
+"screen (Package Dimensions).<br><br>Please Note :<br>1. UPS real time shipping "
+"rates are exclusive of VAT. If you want to display the rates including VAT, please "
+"add the VAT % to the shipping rate. E.g. If VAT is 23%, and you want to display "
+"rates including VAT, you should insert 123% above.<br>2. The e-shopper may select "
+"COD as a payment option within the Woocommerce checkout after the shipping rates "
+"are calculated. In this scenario, UPS COD surcharges which will be billed, are not "
+"added to the displayed shipping rates automatically. This is due to the order in "
+"which Woocommerce displays shipping and payment options."
+msgstr ""
+"Kupujący zobaczy % aktualnej stawki UPS. Ceny są wyliczone na podstawie wagi i "
+"wymiarów Przesyłki Domyślnej, skonfigurowanej na poprzedniej stronie (Wymiary "
+"Przesyłki)<br><br>Uwaga:<br>1. Aktualne stawki UPS za przesyłkę nie uwzględniają "
+"VAT. Jeśli chcesz pokazać ceny z VAT, należy dodać % VAT do ceny za przesyłkę. W "
+"przypadku jeśli VAT wynosi 23%, w miejsce powyżej należy wstawić 123%<br>2. "
+"Kupujący może w koszyku Woocommerce wybrać jako sposób płatności Przesyłkę za "
+"Pobraniem już po wyliczeniu ceny za przesyłkę. W tym przypadku, koszty usługi "
+"pobrania zostaną zafakturowane, jednak nie zostaną automatycznie dodane do stawki "
+"za przesyłkę widocznej na stronie. Spowodowane to jest kolejnością wyświetlenia "
+"stawek za przesyłke i za pobranie w systemie Woocommerce"
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:38
+msgid ""
+"Please Note : Because COD is a payment option in shopping cart that is selected by "
+"e-shopper after selecting UPS service in the website check out, the UPS plug-in "
+"cannot automatically add back UPS COD charges in the total shipping fee even if you "
+"show UPS shipping rates in the check-out."
+msgstr ""
+"Uwaga: Ponieważ pobranie należności (COD) jest opcją płatności, która jest "
+"wybierana przez kupującego w koszyku po wyborze usługi UPS na stronie, plugin UPS "
+"nie może automatycznie uwzględnić opłat za pobranie należności (COD) w podsumowaniu "
+"kosztów całkowitych wysyłki nawet jeśli używasz  interfejsu API Ustalanie stawek "
+"UPS, aby wyświetlić koszty wysyłki UPS w podsumowaniu zamówienia."
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:39
+msgid "Ship to Address"
+msgstr "Wysyłka na adres"
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:40
+msgid "Order Value threshold"
+msgstr "Próg wartości zamówienia"
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:41
+msgid "Delivery rates"
+msgstr "Stawki dostawy"
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:42
+msgid "Delivery rates is"
+msgstr "Stawki dostawy są"
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:43
+msgid "% of UPS shipping rates"
+msgstr "% stawek za wysyłkę UPS"
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:44
+msgid "Save error"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:46
+msgid "minlength = 0.01 maxlength = 9999.99"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-delivery-rate.php:47
+msgid "min = 1.00max = 100.00"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:37
+msgid "Title"
+msgstr "Tytuł"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:38
+msgid "Full name"
+msgstr "Pelna nazwa"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:39
+msgid "Mr"
+msgstr "Pan"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:40
+msgid "Miss"
+msgstr "Pani"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:41
+msgid "Mrs"
+msgstr "Pani"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:42
+msgid "Ms"
+msgstr "Pani"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:56
+msgid "I do not have a UPS Account Number and would like to get one from the plug-in"
+msgstr "Nie posiadam numeru klienta UPS i chciałbym go uzyskać za pomocą pluginu"
+
+msgid ""
+"I don’t have a UPS account number and would like to get one with discounted rates "
+"from the plug-in"
+msgstr "Nie posiadam numeru klienta UPS i chciałbym go uzyskać za pomocą pluginu"
+
+msgid ""
+"Business to business shipments from the US to Europe require VAT number. If you do "
+"not have a VAT number at this time, you can add to your account at a later date on "
+"UPS.com."
+msgstr ""
+"Business to business shipments from the US to Europe require VAT number. If you do "
+"not have a VAT number at this time, you can add to your account at a later date on "
+"UPS.com. PL"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:57
+msgid "VAT number"
+msgstr "Numer NIP"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:58
+msgid "Promo Code"
+msgstr "Kod promocyjny"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:59
+msgid "Get started"
+msgstr "Rozpocznij"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:65
+msgid ""
+"Total Amount Due for the given invoice. It can be found on the 'Summary of Charges' "
+"table on the first page on the invoice"
+msgstr ""
+"Łączna kwota należna za daną fakturę. Można ją znaleźć w tabeli 'Podsumowanie "
+"opłat' na pierwszej stronie faktury"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:67
+msgid ""
+"Please Note : Shippers are prohibited from shipping dangerous goods or hazardous "
+"materials using the account opened in this application."
+msgstr ""
+"Uwaga: Nadawcy nie wolno nadawać towarów niebezpiecznych lub materiałów "
+"niebezpiecznych za pomocą konta otwartego w tej aplikacji."
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:68
+msgid ""
+"Your account will support deliveries to authorized UPS Access Point locations after "
+"24 hours."
+msgstr ""
+"Twoje konto będzie wspierać wysyłki do punktów doręczeń UPS Access Point w ciągu 24 "
+"godzin."
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:69
+msgid ""
+"You can find more information on dangerous goods and how UPS can support you "
+"shipping them on this link"
+msgstr ""
+"Możesz znaleźć więcej informacji na temat towarów niebezpiecznych i wsparcia UPS "
+"dla ich wysyłki pod tym adresem"
+
+#: src/libsystems/lang/ups-eu-woo-lang-none-account.php:70
+msgid ""
+"https://www.ups.com/pl/en/help-center/packaging-and-supplies/special-care-shipments/"
+"global-dangerous-goods.page"
+msgstr ""
+"https://www.ups.com/pl/pl/help-center/packaging-and-supplies/special-care-shipments/"
+"global-dangerous-goods.page"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:36
+msgid "Order"
+msgstr "Zamówienie"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:37
+msgid "Create Single Shipments"
+msgstr "Utwórz pojedyncze przesyłki"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:38
+msgid "Create Batch Shipments"
+msgstr "Utwórz przesyłki zbiorcze"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:39
+msgid "Export All Orders"
+msgstr "Eksportuj wszystkie zamówienia"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:40
+msgid "Export Orders"
+msgstr "Eksportuj otwarte zamówienia"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:41
+msgid "Archive Orders"
+msgstr "Archiwizuj zamówienia"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:42
+msgid "COD Amount"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:43
+msgid "COD Currency"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:44
+msgid "Total Paid"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:45
+msgid "Total Products"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:46
+msgid "Accessorials Service"
+msgstr "Usługa dodatkowa"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:47
+msgid "Product Name"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:48
+msgid "Merchant UPSaccount Number"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:49
+msgid "Customer"
+msgstr "Klient"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:50
+msgid "Customer Last Name"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:51
+msgid "Customer First Name"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:52
+msgid "Customer Phone"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:53
+msgid "Currency State"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:54
+msgid ""
+"Warning - Archiving orders will move your orders in the Archive tab and you can no "
+"longer process these orders. Click 'OK' to continue, 'Cancel' to go back to the "
+"screen"
+msgstr ""
+"Ostrzeżenie - Archiwizacja zamówień spowoduje przeniesienie zamówień na kartę "
+"Zarchiwizowane zamówienia i nie będzie można już przetwarzać tych zamówień. Kliknij "
+"przycisk 'OK', aby kontynuować, 'Anuluj', aby wrócić do ekranu"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:55
+msgid "Access Point"
+msgstr "Punkt UPS Access Point"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:56
+msgid "Accessorial Service"
+msgstr "Usługa Dodatkowa"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:57
+msgid "Order volume"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:58
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:52
+msgid "Order value"
+msgstr "Wartość zamówienia"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:59
+msgid "Payment status"
+msgstr "Status płatności"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:60
+msgid "Archiving Orders"
+msgstr "Archiwizacja Zamówień"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:62
+msgid "Process Shipment"
+msgstr "Przetwarzanie Przesyłki"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:63
+msgid "Ship From"
+msgstr "Wysyłka z"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:64
+msgid "Ship To"
+msgstr "Dostawa do"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:65
+msgid "Name"
+msgstr "Nazwa"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:67
+msgid "State"
+msgstr "Województwo"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:69
+msgid "Note: Insufficient or incorrect address may increase the shipping fee"
+msgstr ""
+"Uwaga: Niewystarczający lub nieprawidłowy adres może zwiększyć opłatę za wysyłkę"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:70
+msgid "Accessorial service"
+msgstr "Usługa dodatkowa"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:71
+msgid "Packaging"
+msgstr "Opakowanie"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:72
+msgid "Package"
+msgstr "Paczka"
+
+msgid "Package #"
+msgstr "Paczka #"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:73
+msgid "Custom Package"
+msgstr "Pakiet niestandardowy"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:74
+msgid "Add package"
+msgstr "Dodaj paczkę"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:75
+msgid "View estimated shipping fee and delivery date"
+msgstr "Wyświetl szacunkową opłatę za wysyłkę i datę dostawy"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:76
+msgid "Cancel Editing"
+msgstr "Anuluj Edycję"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:78
+msgid "Create Shipment"
+msgstr "Utwórz Przesyłkę"
+
+#: src/libsystems/lang/ups-eu-woo-lang-open-orders.php:79
+msgid "Orders to be processed"
+msgstr "Zamówienia do przetworzenia"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:36
+msgid "Default package"
+msgstr "Paczka domyślna"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:38
+msgid ""
+"Please enter weight and dimensions of your packaging here. You can add multiple "
+"package dimensions, which can be easily selected in a dropdown option when creating "
+"shipments in the plug-in.<br><br>In case you decide to show the real time UPS "
+"shipping rate (to be configured in the next screen) to the e-shoppers, the plug-in "
+"will use the first package, referred to as the \"Default Package\" that is "
+"displayed below. The Default Package's weight and dimensions will be used to "
+"calculate the UPS shipping rates that will be displayed to the e-shoppers."
+msgstr ""
+"Tutaj podaj wagę i wymiary paczki. Możesz wprowadzić różne wymiary, a potem "
+"wybierać właściwą opcję z rozwijanej listy podczas tworzenia przesyłki."
+"<br><br>Jeśli chcesz wyświetlać aktualną stawkę UPS (do ustawienia na następnym "
+"ekranie), wtedy wtyczka wykorzysta pierwszą paczkę (Paczka domyślna) wyświetlaną "
+"poniżej. Waga i wymiary Paczki domyślnej będą wykorzystane do wyliczenia cen za "
+"przesyłki UPS wyświetlane kupującym."
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:39
+msgid "Add New Package"
+msgstr "Dodaj nową paczkę"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:40
+msgid "Add Package"
+msgstr "Dodaj paczkę"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:41
+msgid "Remove Package"
+msgstr "Usuń paczkę"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:42
+msgid ""
+"You are going to remove this default package from your profile.<br>Click Ok to "
+"confirm, close the dialog to cancel."
+msgstr ""
+"Zamierzasz usunąć tę paczkę ze swojego profilu. <br> Kliknij OK, aby potwierdzić, "
+"zamknij okno dialogowe, aby anulować."
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:43
+msgid "Input missing"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:44
+msgid "Please input at least one default package to continue"
+msgstr "Wprowadź co najmniej jedną przesyłkę domyślną, aby kontynuować."
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:45
+msgid "Package name"
+msgstr "Nazwa paczki"
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:46
+msgid "Example: Standard, Large, Phone box, etc."
+msgstr "Przykład: standardowa, duża, pudełko tel. itp."
+
+#: src/libsystems/lang/ups-eu-woo-lang-package-dimension.php:47
+msgid "Editing Default Package"
+msgstr "Edycja przesyłki domyślnej"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:36
+msgid "Print Label"
+msgstr "Drukuj etykietę"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:31
+msgid "Download PDF Label"
+msgstr "Pobierz etykietę PDF"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:34
+msgid "Download ZPL Label"
+msgstr "Pobierz etykietę ZPL"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:37
+msgid "Export Shipment Data"
+msgstr "Eksportuj dane przesyłki"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:38
+msgid "Cancel Shipments"
+msgstr "Anuluj przesyłkę"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:39
+msgid "ID Shipment"
+msgstr "Identyfikator przesyłki"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:40
+msgid "Tracking Number"
+msgstr "Numer monitorowania"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:41
+msgid "Date"
+msgstr "Data"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:42
+msgid "Time"
+msgstr "Czas"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:43
+msgid "Estimated Shipping Fee"
+msgstr "Szacunkowy koszt"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:44
+msgid "Shipment ID"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:45
+msgid "Tracking number"
+msgstr "Numer przesyłki"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:46
+msgid "deliveryStatus"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:47
+msgid "CODAmount"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:48
+msgid "CODCurrency"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:49
+msgid "Estimated shipping fee"
+msgstr "Szacunkowy koszt"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:50
+msgid "Accessorials"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:51
+msgid "Order date"
+msgstr "Data zamówienia"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:53
+msgid "Shipping fee"
+msgstr "Opłata przewozowa"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:54
+msgid "Package details"
+msgstr "Szczegóły przesyłki"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:55
+msgid "Product details"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:56
+msgid "Customer name"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:57
+msgid "Customer Phone no"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:58
+msgid "LabelShipment"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:59
+msgid "Cancel Shipment(s)"
+msgstr "Anuluj przesyłkę"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:60
+msgid "Are you sure you want to cancel selected shipment(s)?"
+msgstr "Czy na pewno chcesz anulować wybrane przesyłki?"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:61
+msgid "Shipment"
+msgstr "Wysyłka"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:62
+msgid "Order #ID reference"
+msgstr "Referencja nr zamówienia"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:63
+msgid "UPS Tracking Terms and Conditions"
+msgstr "Warunki i zasady korzystania z usługi Monitorowanie UPS"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:64
+msgid ""
+"NOTICE: The UPS package tracking systems accessed via this service (the “Tracking "
+"Systems”) and tracking information obtained through this service (the "
+"“Information”) is the private property of UPS. UPS authorizes you to use the "
+"Tracking Systems solely to track shipments tendered by or for you to UPS for "
+"delivery and for no other purpose. Without limitation, you are not authorized to "
+"make the Information available on any web site or otherwise reproduce, distribute, "
+"copy, store, use or sell the Information for commercial gain without the express "
+"written consent of UPS. This is a personal service, thus your right to use the "
+"Tracking Systems or Information is non-assignable. Any access or use that is "
+"inconsistent with these terms is unauthorized and strictly prohibited."
+msgstr ""
+"UWAGA: Systemy monitorowania przesyłek UPS dostępne poprzez tę usługę (“ Systemy "
+"monitorowania ”) i informacje o śledzeniu uzyskane za pośrednictwem tej usługi (“ "
+"Informacje ”) są prywatną własnością firmy UPS. UPS upoważnia Użytkownika do "
+"korzystania z Systemów Monitorowania wyłącznie w celu śledzenia wysyłanych przez "
+"niego przesyłek lub przesyłek do UPS w celu doręczenia i do żadnych innych celów. "
+"Bez ograniczeń Użytkownik nie jest upoważniony do udostępniania Informacji na "
+"żadnej stronie internetowej ani do reprodukowania, rozpowszechniania, kopiowania, "
+"przechowywania, wykorzystywania ani do sprzedaży informacji w celach komercyjnych "
+"bez wyraźnej pisemnej zgody UPS.  Jest to usługa osobista, dlatego prawo do "
+"korzystania z systemów śledzenia lub informacji nie może być udostępniane innym. "
+"Jakikolwiek dostęp lub użytkowanie niezgodne z tymi warunkami jest niedozwolone i "
+"surowo zabronione."
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:65
+msgid ""
+"By selecting any order in this shipment tab, I agree to the <a href=\"javascript:"
+"\">Terms and Conditions</a>."
+msgstr ""
+"Wybierając dowolne zamówienie w zakładce przesyłki, akceptuję <a href=\"javascript:"
+"\">Warunki korzystania z usług</a>."
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:66
+msgid "Shipment canceled"
+msgstr "Przesyłka została anulowana"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipments.php:67
+msgid ""
+"We are unable to void this shipment at this time. You may attempt to void the "
+"shipment later. However you will not be billed for this shipment provided that you "
+"do not use the shipping label"
+msgstr ""
+"W tej chwili nie możemy anulować tej przesyłki. Możesz spróbować anulować przesyłkę "
+"później. Nie zostaniesz obciążony opłatą za tę przesyłkę, o ile nie użyjesz "
+"etykiety wysyłkowej"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:36
+msgid "Deliver to UPS Access Point™ (to-AP delivery)"
+msgstr "Dostarcz do UPS Access Point™ (dostawa do AP)"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:37
+msgid ""
+"UPS delivers the parcel to a UPS Access Point™ that the customer selected, then "
+"customer picks up their order there"
+msgstr ""
+"UPS dostarcza paczkę do punktu UPS Access Point™ wybranego przez klienta, a "
+"następnie klient odbiera tam swoje zamówienie"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:38
+msgid "Set as default shipping option"
+msgstr "Ustaw jako domyślną opcję wysyłki"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:39
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:48
+msgid "Select the shipping services for your customers to choose"
+msgstr "Określ usługę dostawy dla swoich klientów do wyboru"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:40
+msgid "International shipping only - visible when shipping address is outside of EU"
+msgstr ""
+"Tylko wysyłka międzynarodowa - widoczna, gdy adres wysyłki znajduje się poza UE"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:41
+msgid "Access Point display setting"
+msgstr "Ustawienie wyświetlania Access Point"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:42
+msgid "Number of Access Points visible to customers"
+msgstr "Liczba punktów dostępowych widocznych dla klientów"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:43
+msgid "Display all the Access Points in range of"
+msgstr "Wyświetl wszystkie punkty Access Point w zasięgu"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:44
+msgid "kilometer around consignee's selected address"
+msgstr "kilometrów od wybranego adresu"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:45
+msgid "Choose Account Number for this option "
+msgstr "Wybierz numer konta UPS dla tej opcji "
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:46
+msgid "Deliver to consignee address (to-address delivery)"
+msgstr "Dostarczanie na adres odbiorcy (doręczenie bezpośrednio na adres)"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:47
+msgid "UPS delivers the parcel to the shipping address provided by customer."
+msgstr "UPS dostarcza paczkę na adres wysyłki podany przez klienta"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:49
+msgid "Choose Account Number for this option"
+msgstr "Wybierz numer konta UPS dla tej opcji"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:50
+msgid "Cut off time"
+msgstr "Najpóźniejszy termin odbioru"
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:51
+msgid ""
+"The cut off time selected here will be used in calculating the schedule delivery "
+"date and time, which will be displayed on your website checkout.<br><br>For "
+"example, if the cut off time is selected as 5 PM and your e-shoppers views your "
+"webstore at 5.01 PM, all UPS scheduled delivery dates and time will be calculated "
+"from the following business day. When deciding this cut off time, please ensure "
+"that you have sufficient time to fulfill the order before the UPS scheduled pick up "
+"or you are able to drop off the packages at a UPS Access Point.<br><br>If you are "
+"unsure about fulfilling customer orders on the same day, you can select \"Disable\" "
+"which will result in the e-shopper seeing a generic delivery schedule for each "
+"available UPS service. For Example; \"UPS Standard - In most cases, delivered "
+"within 1 to 3 business days in Europe.\""
+msgstr ""
+"Najpóźniejszy termin odbioru wybrany tutaj zostanie użyty do ustalenia planowanej "
+"daty i godziny doręczenia. Informacja ta zostanie wyświetlona na stronie transakcji."
+"<br><br>Przykładowo, jeśli ustalony czas odbioru to 17.00, a kupujący przejdzie do "
+"strony transakcyjnej o 17.01, czas dostawy dla wszystkich usług UPS będzie liczony "
+"od następnego dnia roboczego. Przed ustaleniem najpóźniejszego czasu odbioru należy "
+"upewnić się że do tego czasu zostanie przygotowana przesyłka. Alternatywą jest "
+"nadanie przesyłki samodzielnie w wybranym punkcie UPS Access Point™.<br><br>Jeśli "
+"nie masz pewności, że przygotujesz przesyłkę tego samego dnia, wybierz opcję "
+"'WYŁĄCZ'. W tym przypadku kupujący zobaczy standardową informację UPS o czasach "
+"dostawy."
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:52
+msgid "Default account"
+msgstr ""
+
+#: src/libsystems/lang/ups-eu-woo-lang-shipping-service.php:54
+msgid ""
+"Select the UPS services you want to be visible in the checkout for your e-shoppers. "
+"To learn more about UPS services, refer UPS Tariff/Terms and Conditions of Service "
+"on UPS.COM"
+msgstr ""
+"Wybierz usługi UPS, które mają być widoczne dla kupującego na stronie transakcji. "
+"Aby dowiedzieć się więcej o dostępnych usługach UPS, zapoznaj się z Przewodnikiem "
+"po Usługach na www.ups.com"
+
+#: src/libsystems/lang/ups-eu-woo-lang-terms-conditions.php:37
+msgid ""
+"I agree to the UPS Technology Agreement and confirm that I've been given enough "
+"time to read it and understand that it contains important terms about my use of UPS "
+"Technologies, like limiting UPS's liability and my agreement on how disputes "
+"between UPS and me will be handled."
+msgstr ""
+"Potwierdzam, że otrzymałem wystarczająco dużo czasu na przeczytanie i zrozumienie "
+"powyższej Umowy o Technologii UPS („UTA”) oraz Warunków Usług Danych [Kliknij <a "
+"href='https://www.ups.com/assets/resources/media/pl_PL/ups-license-data-and-service-"
+"terms-woocommerce.pdf' target='_blank'>tutaj</a>, aby wyświetlić warunki] („Warunki "
+"danych”) dla UPS Shipping i UPS Access Point™: Oficjalna wtyczka („Moduł”). "
+"Niniejszym zgadzam się, że UTA zawiera ważne warunki dotyczące mojego korzystania z "
+"Technologii UPS (zgodnie z definicją w niej zawartą), a Warunki danych zawierają "
+"ważne warunki dotyczące korzystania przeze mnie i wymiany informacji z UPS za "
+"pośrednictwem Modułu, w każdym przypadku łącznie z warunkami, takimi jak "
+"ograniczenie odpowiedzialności UPS oraz moja zgoda co do tego, jak będą "
+"rozstrzygane spory między UPS a mną."
+
+#: src/models/ups-eu-woo-model-account.php:61
+msgid "Company is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:62
+msgid "Account number is not valid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:199
+msgid "Title is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:205
+#: src/models/ups-eu-woo-model-account.php:211
+msgid "Fullname is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:218
+msgid "Email is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:224
+msgid "Email is not valid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:241
+msgid "Phone number is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:247
+msgid "Address is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:253
+msgid "Postal code is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:259
+msgid "City is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:271
+msgid "Account name is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:272
+msgid "Account name is not valid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:282
+#: src/models/ups-eu-woo-model-account.php:350
+msgid "Account number is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:293
+#: src/models/ups-eu-woo-model-account.php:361
+msgid "The Account Number existed"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:302
+msgid "Invoice number is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:315
+msgid "Invoice amount is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:322
+msgid "Invoice amount is not valid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:330
+msgid "Currency is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-account.php:337
+msgid "Invoice date is required"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-config.php:121
+msgid "key is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-delivery-rates.php:136
+msgid "service_id is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-delivery-rates.php:143
+#: src/models/ups-eu-woo-model-delivery-rates.php:149
+msgid "min_order_value invalid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-delivery-rates.php:396
+msgid "The minimum thresholds can not be the same"
+msgstr "Minimalne progi nie mogą być takie same"
+
+#: src/models/ups-eu-woo-model-license.php:152
+msgid "AccessLicenseText is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-license.php:158
+msgid "Username is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-license.php:164
+msgid "Password is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-options.php:119
+msgid "Viet Nam"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-options.php:170
+msgid "Kg"
+msgstr "Kg"
+
+#: src/models/ups-eu-woo-model-options.php:171
+msgid "Pounds"
+msgstr "Pounds"
+
+#: src/models/ups-eu-woo-model-options.php:183
+msgid "Cm"
+msgstr "Cm"
+
+#: src/models/ups-eu-woo-model-options.php:184
+msgid "Inch"
+msgstr "Inch"
+
+#: src/models/ups-eu-woo-model-options.php:196
+msgid "Flat rates"
+msgstr "Stawki ryczałtowe"
+
+#: src/models/ups-eu-woo-model-options.php:197
+msgid "Real time shipping rates"
+msgstr "Stawki dostawy w czasie rzeczywistym"
+
+#: src/models/ups-eu-woo-model-options.php:225
+msgid "Disable"
+msgstr "Disable"
+
+#: src/models/ups-eu-woo-model-package-default.php:146
+msgid "package name is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:153
+msgid "weight is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:160
+msgid "length is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:167
+msgid "width is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:174
+msgid "height is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:186
+#: src/models/ups-eu-woo-model-package-default.php:238
+msgid "package name value invalid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:193
+msgid "weight value invalid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:200
+msgid "length value invalid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:207
+msgid "width value invalid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:214
+msgid "height value invalid"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-package-default.php:242
+msgid "The name Package is exist."
+msgstr "Nazwa Paczka istnieje."
+
+#: src/models/ups-eu-woo-model-services.php:140
+msgid "country_code is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-services.php:147
+msgid "service_type is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-services.php:154
+msgid "service_key is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-tracking.php:137
+msgid "tracking_number is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-tracking.php:144
+msgid "shipment_number is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-tracking.php:151
+msgid "status is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-tracking.php:158
+msgid "order_id is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-tracking.php:165
+msgid "package_detail is empty"
+msgstr ""
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:603
+msgid "Delivered by End of Business Day"
+msgstr "Paczka doręczona do końca dnia roboczego"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:607
+msgid "Delivered by"
+msgstr "Doręczenie do"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:755
+msgid "Open 24 hours"
+msgstr "Otwarte całą dobę"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:975
+msgid "Monday"
+msgstr "Poniedziałek"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:976
+msgid "Tuesday"
+msgstr "Wtorek"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:977
+msgid "Wednesday"
+msgstr "Środa"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:978
+msgid "Thursday"
+msgstr "Czwartek"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:979
+msgid "Friday"
+msgstr "Piątek"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:980
+msgid "Saturday"
+msgstr "Sobota"
+
+#: src/models/ups-eu-woo-model-ups-shipping-api.php:981
+msgid "Sunday"
+msgstr "Niedziela"
+
+#: src/setting_shipping/ups-eu-woo-ups-eu-shipping.php:19
+msgid "Description about admin of [UPS Shipping]"
+msgstr ""
+
+#: src/setting_shipping/ups-eu-woo-ups-eu-shipping.php:81
+msgid "Description about frontend [ups eu shipping]."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "UPS Shipping and UPS Access Point™ : Official Plugin"
+msgstr "UPS Shipping i UPS Access Point™: oficjalna wtyczka"
+
+#. Description of the plugin/theme
+msgid ""
+"This module allows you to easily integrate UPS services into your store with a "
+"range of guaranteed delivery services (including deliveries to UPS Access Points™) "
+"to meet your customers' need for speed and budget."
+msgstr ""
+"Moduł ten pozwala na łatwą integrację usług UPS z Państwa sklepem internetowym. "
+"Umożliwia łatwe udostępnienie wielu opcji dostawy (również do punktów odbioru UPS "
+"Access Points™) zapewniając kupującym szeroki wybór w zależności od czasu i miejsca "
+"dostawy."
+
+#. Author of the plugin/theme
+msgid "UPS"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "www.ups.com"
+msgstr ""
+
+msgid "For more information visit %s"
+msgstr "Aby uzyskać więcej informacji, odwiedź stronę %s"
+
+msgid "Compatible with WooCommerce versions 3.2, 3.3"
+msgstr "Kompatybilność z wersjami WooCommerce 3.2, 3.3"
+
+msgid ""
+"For assistance with installing, upgrading, or using UPS Shipping Module, please "
+"contact UPS at -"
+msgstr ""
+"Per assistenza all’installazione, l’aggiornamento o l’utilizzo del modulo di "
+"spedizione UPS, contatta UPS al numero:"
+
+msgid "Poland +48 (0) 22 203 03 21"
+msgstr "Polonia +48 (0) 22 203 03 21"
+
+msgid "Minor bug fixes"
+msgstr "Dodano przycisk Pobierz dziennik i naprawiono drobny błąd."
+
+msgid ""
+"The cut off time selected here will be used in calculating the schedule delivery "
+"date and time, which will be displayed on your website checkout."
+msgstr ""
+"L’ora di cut off qui selezionata verrà utilizzata per il calcolo della "
+"programmazione della data di consegna, che verrà visualizzata al checkout del tuo "
+"sito Web."
+
+msgid ""
+"For example, if the cut off time is selected as 5 PM and your e-shoppers views your "
+"webstore at 5.01 PM, all UPS scheduled delivery dates and time will be calculated "
+"from the following business day. When deciding this cut off time, please ensure "
+"that you have sufficient time to fulfill the order before the UPS scheduled pick up "
+"or you are able to drop off the packages at a UPS Access Point™."
+msgstr ""
+"Ad esempio, se l’ora di cut off selezionata è le 17:00, e gli acquirenti online "
+"visualizzano il webstore alle 17:01, tutte le date di consegna programmata verranno "
+"calcolate a partire dal giorno lavorativo seguente. Quando decidi l’ora di cut off, "
+"accertati di disporre di tempo sufficiente per evadere l’ordine prima del ritiro "
+"programmato di UPS o prima del deposito del pacchetto presso l’UPS Access Point™."
+
+msgid ""
+"If you are unsure about fulfilling customer orders on the same day, you can select "
+"\"Disable\" which will result in the e-shopper seeing a generic delivery schedule "
+"for each available UPS service. For Example; \"UPS® Standard - In most cases, "
+"delivered within 1 to 3 business days in Europe.\""
+msgstr ""
+"Se non sei sicuro in merito all’evasione degli ordini dei clienti lo stesso giorno, "
+"puoi selezionare \"Disabilita\", che farà sì che l’acquirente online riceva una "
+"programmazione di consegna generica per ciascun servizio UPS disponibile. Ad "
+"esempio; \"UPS® Standard - nella maggior parte dei casi, consegna entro 1 - 3 "
+"giorni lavorativi in Europa.\""
+
+msgid "Support information"
+msgstr "Informacje dotyczące wsparcia"
+
+msgid "January"
+msgstr "Styczeń"
+
+msgid "February"
+msgstr "Luty"
+
+msgid "March"
+msgstr "Marzec"
+
+msgid "April"
+msgstr "Kwiecień"
+
+msgid "May"
+msgstr "Maj"
+
+msgid "June"
+msgstr "Czerwiec"
+
+msgid "July"
+msgstr "Lipiec"
+
+msgid "August"
+msgstr "Sierpień"
+
+msgid "September"
+msgstr "Wrzesień"
+
+msgid "October"
+msgstr "Listopad"
+
+msgid "November"
+msgstr "Październik"
+
+msgid "December"
+msgstr "Grudzień"
+
+msgid "Germany"
+msgstr "Niemcy"
+
+msgid "Spain"
+msgstr "Hiszpania"
+
+msgid "Italy"
+msgstr "Włochy"
+
+msgid "Netherlands"
+msgstr "Holandia"
+
+msgid "France"
+msgstr "Francja"
+
+msgid "Error! Maximum allowable per package weight is 70.00 kgs or 154.32 lbs."
+msgstr "Błąd! Maksymalna dozwolona waga paczki to 70,00 kg lub 154,32 funtów."
+
+msgid ""
+"Warning! Maximum allowable per package weight for shipments created for UPS Access "
+"Points is 20.00 kgs or 44.09 lbs."
+msgstr ""
+"Ostrzeżenie! Maksymalna dozwolona waga paczki dla przesyłek utworzonych dla UPS "
+"Access Point to 20,00 kg lub 44,09 funtów."
+
+msgid ""
+"Error! Package exceeds the maximum allowable size of 400 cm or 157.48 inches (the "
+"maximum allowable size calculation = length + 2 * width + 2 * height)."
+msgstr ""
+"Błąd! Paczka przekracza maksymalne dozwolone rozmiary 400 cm lub 157,48 cali "
+"(obliczanie maksymalnego dozwolonego rozmiaru = długość + 2 * szerokość + 2 * "
+"wysokość)."
+
+msgid "Un-Archived Orders"
+msgstr "Cofnij archiwizację zamówień"
+
+msgid ""
+"Warning! Un-Archiving orders will move your orders to Open Orders tab. Click 'OK' "
+"to continue, 'Cancel' to go back to the screen."
+msgstr ""
+"Ostrzeżenie! Zamówienia przywracane z archiwizacji zostaną przesunięte do zakładki "
+"z otwartymi zamówieniami. Kliknij „OK”, aby kontynuować, „Anuluj”, aby powrócić do "
+"ekranu."
+
+msgid ""
+"NOTE: If you have an existing UPS account number, please use the exact registered "
+"pickup address (which might be different from your invoice billing address) "
+"associated with this account number. Please note that the format of the postal code "
+"or zip code should exactly match the one provided in the registered pickup address."
+msgstr ""
+"UWAGA: Jeśli posiadasz numer istniejącego konta UPS, użyj dokładnego "
+"zarejestrowanego adresu odbioru (który może się różnić od adresu na fakturze "
+"rozliczeniowej), powiązanego z tym numerem konta. Zwróć uwagę, że format kodu "
+"pocztowego powinien być taki sam, jak ten z zarejestrowanego w adresie odbioru."
+
+msgid ""
+"Use registered pickup address. If you have any difficulties understanding which "
+"address to use, please contact your local UPS sales representative or call the "
+"support phone number provided on the “About” page"
+msgstr ""
+"Użyj zarejestrowanego adresu odbioru. Jeśli nie jesteś pewien/pewna, którego adresu "
+"użyć, skontaktuj się z lokalnym przedstawicielem sprzedaży UPS lub zadzwoń pod "
+"numer pomocy, który znajduje się na stronie „O firmie”."
+
+msgid ""
+"The format of the postal code should exactly match the one provided in the "
+"registered pickup address. If you have any difficulties understanding which address "
+"to use, please contact your local UPS sales representative or call the support "
+"phone number provided on the “About” page"
+msgstr ""
+"Format kodu pocztowego powinien być taki sam, jak ten z zarejestrowanego w adresie "
+"odbioru. Jeśli nie jesteś pewien/pewna, którego adresu użyć, skontaktuj się z "
+"lokalnym przedstawicielem sprzedaży UPS lub zadzwoń pod numer pomocy, który "
+"znajduje się na stronie „O firmie”."
+
+msgid "Pickup Address"
+msgstr "Adres odbioru"
+
+msgid "Pickup Postal Code"
+msgstr "Kod pocztowy adresu odbioru"
+
+msgid ""
+"Warning! Maximum allowable per package size for shipments created for UPS Access "
+"Points is 330 cm or 129.92 inches (the maximum allowable size calculation = length "
+"+ 2 * width + 2 * height)."
+msgstr ""
+"Ostrzeżenie! Maksymalny dozwolony rozmiar na paczkę dla przesyłek utworzonych dla "
+"UPS Access Point to 330 cm lub 129,92 cali (obliczanie maksymalnego dozwolonego "
+"rozmiaru = długość + 2 * szerokość + 2 * wysokość)."
+
+msgid "Un-Archiving Orders"
+msgstr "Zamówienia przywracane z archiwizacji"
+
+msgid "Warning"
+msgstr "Ostrzeżenie"
+
+msgid "Belgium"
+msgstr "Belgia"
+
+msgid "Accessorial service note"
+msgstr ""
+"*Select “Edit” and add applicable accessorial services for a more accurate shipping "
+"estimate PL"
+
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+msgid "Password"
+msgstr "Hasło"
+
+msgid "UPS login username"
+msgstr "Nazwa użytkownika logowania UPS"
+
+msgid "UPS login password"
+msgstr "Hasło logowania do UPS"
+
+msgid "Choose packing algorithm"
+msgstr "Wybierz algorytm pakowania"
+
+msgid "Package weight unit"
+msgstr "Jednostka wagi opakowania"
+
+msgid "Package dimension unit"
+msgstr "Jednostka wymiaru opakowania"
+
+msgid "Maximum weight per pack"
+msgstr "Maksymalna waga w opakowaniu"
+
+msgid "Set Access Point address as Ship to address"
+msgstr "Ustaw adres punktu dostępu jako Wyślij na adres"
+
+msgid "Number of items in the order determine the package size"
+msgstr "Ilość sztuk w zamówieniu określa wielkość paczki"
+
+msgid "Weights and dimensions of the products in the order determine the package size"
+msgstr "Waga i wymiary produktów w zamówieniu określają wielkość opakowania"
+
+msgid "Select your access point using location search before proceeding"
+msgstr "Zanim przejdziesz dalej, wybierz punkt dostępu, korzystając z funkcji wyszukiwania "
+"lokalizacji"
